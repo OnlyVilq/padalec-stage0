@@ -1,0 +1,278 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 59.69 29.21)
+		(end 87.63 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6caab4d6-f5fd-4f08-a663-c7829caf0b61)
+	)
+	(text "Stage1:\n\nRJ45"
+		(exclude_from_sim no)
+		(at 134.62 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c617cc2-a724-44bc-918e-d820d30f6f72")
+	)
+	(text "Roadmap:\n\nRJ 45\n\nHDMI TX\n\nPCIE 3.0 x1\n\nUSB C\n\nUSB 3.0 jak będzie czas\n\nHDMI RX jak będzie czas"
+		(exclude_from_sim no)
+		(at 60.96 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9004e12e-53e9-4187-b426-ecf860f94970")
+	)
+	(text "Stage0:\n\nzasilanie\nsd\nuart\naudio"
+		(exclude_from_sim no)
+		(at 102.108 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9963481a-cc64-48e2-b887-4b537a738cc4")
+	)
+	(text "Stage 0.5\n\nPower led\n?debug led\nPower button"
+		(exclude_from_sim no)
+		(at 120.904 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db37d5f9-f335-4368-a965-efcd7ea12962")
+	)
+	(sheet
+		(at 134.62 133.35)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "967b99a7-f1de-4a10-a21e-0ed5641f9517")
+		(property "Sheetname" "RTC"
+			(at 134.62 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 134.62 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 128.27)
+		(size 26.67 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5735413-a322-49ab-a9e1-37a1bb9eed3b")
+		(property "Sheetname" "Debug UART"
+			(at 85.09 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART2.kicad_sch"
+			(at 85.09 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 81.28)
+		(size 38.1 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6bb69b3-ba44-4195-af12-afa62b10fdb4")
+		(property "Sheetname" "RK3588"
+			(at 90.17 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SystemOnModule.kicad_sch"
+			(at 90.17 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 119.38)
+		(size 40.64 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa24cc62-a516-4c36-8d2f-bea1dd132876")
+		(property "Sheetname" "microSD"
+			(at 21.59 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untimicroSDtled.kicad_sch"
+			(at 21.59 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 81.28)
+		(size 35.56 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fddb304d-0a52-4e5e-9772-501df86db575")
+		(property "Sheetname" "Zasilanie"
+			(at 30.48 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply.kicad_sch"
+			(at 30.48 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
