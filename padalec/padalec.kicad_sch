@@ -17,9 +17,9 @@
 		)
 		(uuid 6caab4d6-f5fd-4f08-a663-c7829caf0b61)
 	)
-	(text "Stage1:\n\nRJ45"
+	(text "Stage1:\n\n[ ]RJ45"
 		(exclude_from_sim no)
-		(at 134.62 33.528 0)
+		(at 141.478 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38,7 +38,18 @@
 		)
 		(uuid "9004e12e-53e9-4187-b426-ecf860f94970")
 	)
-	(text "Stage0:\n\nzasilanie\nsd\nuart\naudio"
+	(text "Stage3\n\n[ ]PCI-E 3.0 1\n[ ]PCI-E 3.0 2\n[ ]PCI-E 3.0 3\n[ ]PCI-E 3.0 4"
+		(exclude_from_sim no)
+		(at 173.99 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96365ce6-e99e-4499-a0cf-3d39a6ba37cb")
+	)
+	(text "Stage0:\n\n[ ]zasilanie\n[x]sd\n[x]uart\n[*]audio\n[x]RTC"
 		(exclude_from_sim no)
 		(at 102.108 36.83 0)
 		(effects
@@ -49,15 +60,49 @@
 		)
 		(uuid "9963481a-cc64-48e2-b887-4b537a738cc4")
 	)
-	(text "Stage 0.5\n\nPower led\n?debug led\nPower button"
+	(text "Stage4:\n\n[ ] USB 2.0\n[ ] USB 3.1"
+		(exclude_from_sim no)
+		(at 196.596 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a07d0292-156c-4721-a23b-4d883b40edb4")
+	)
+	(text "Stage 0.5\n\n[ ]Power led\n[ ]?debug led\n[x]Power button"
 		(exclude_from_sim no)
 		(at 120.904 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "db37d5f9-f335-4368-a965-efcd7ea12962")
+	)
+	(text "Done:\nRTC\nUART-debug\nMicroSD (dodać transile)\nSzyna 12V"
+		(exclude_from_sim no)
+		(at 125.222 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db605da1-9886-4d9a-88d6-5b80ee19858c")
+	)
+	(text "Stage2:\n\n[*]eDP\n[ ] USB 2.0 (dotyk)\n[ ]HDMI tx"
+		(exclude_from_sim no)
+		(at 151.384 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f931e1a1-be5a-4be3-9efd-e078cf416674")
 	)
 	(sheet
 		(at 134.62 133.35)
@@ -139,6 +184,48 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 82.55)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7abfbb5-31e7-4a58-850e-a47ecaa55fa9")
+		(property "Sheetname" "EDP 1"
+			(at 153.67 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edp.kicad_sch"
+			(at 153.67 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "7")
 				)
 			)
 		)
