@@ -2722,6 +2722,16 @@
 		)
 		(uuid "0701ec97-9a0d-4056-b3e1-5e9f595869a9")
 	)
+	(text "+INV_PWR_SRC\nV_BAT???"
+		(exclude_from_sim no)
+		(at 167.894 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "841b7028-75ad-49f2-bca2-2d1446f4eb40")
+	)
 	(text "AZ5125-02S.R7G_SOT23-3"
 		(exclude_from_sim no)
 		(at 78.232 159.766 0)
