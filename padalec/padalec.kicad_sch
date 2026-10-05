@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d")
 	(paper "A4")
 	(lib_symbols)
@@ -15,7 +15,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6caab4d6-f5fd-4f08-a663-c7829caf0b61)
+		(uuid "6caab4d6-f5fd-4f08-a663-c7829caf0b61")
 	)
 	(text "Stage1:\n\n[ ]RJ45"
 		(exclude_from_sim no)
@@ -93,6 +93,28 @@
 		)
 		(uuid "db605da1-9886-4d9a-88d6-5b80ee19858c")
 	)
+	(text "Złącze matrycy do wywalenia\nSprawdzić obsługiwany rozmiar"
+		(exclude_from_sim no)
+		(at 149.606 34.036 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 59 80 1)
+			)
+		)
+		(uuid "e2f356ff-7657-4692-9051-103b40811bd2")
+	)
+	(text "Rozpiska z tematu:\n- HDMI RX\n- HDMI TX\n- USB 3.1\n- USB-C z bajerami\n- PCIE"
+		(exclude_from_sim no)
+		(at 232.664 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6020379-774e-4f45-ab7e-a4a07e108dd4")
+	)
 	(text "Stage2:\n\n[*]eDP\n[ ] USB 2.0 (dotyk)\n[ ]HDMI tx"
 		(exclude_from_sim no)
 		(at 151.384 33.782 0)
@@ -117,11 +139,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "967b99a7-f1de-4a10-a21e-0ed5641f9517")
 		(property "Sheetname" "RTC"
 			(at 134.62 132.6384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,6 +155,8 @@
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
 			(at 134.62 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -159,11 +185,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a5735413-a322-49ab-a9e1-37a1bb9eed3b")
 		(property "Sheetname" "Debug UART"
 			(at 85.09 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -173,6 +201,8 @@
 		)
 		(property "Sheetfile" "UART2.kicad_sch"
 			(at 85.09 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,11 +231,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c7abfbb5-31e7-4a58-850e-a47ecaa55fa9")
 		(property "Sheetname" "EDP 1"
 			(at 153.67 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,6 +247,8 @@
 		)
 		(property "Sheetfile" "edp.kicad_sch"
 			(at 153.67 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,11 +277,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f6bb69b3-ba44-4195-af12-afa62b10fdb4")
 		(property "Sheetname" "RK3588"
 			(at 90.17 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -257,6 +293,8 @@
 		)
 		(property "Sheetfile" "SystemOnModule.kicad_sch"
 			(at 90.17 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,11 +323,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fa24cc62-a516-4c36-8d2f-bea1dd132876")
 		(property "Sheetname" "microSD"
 			(at 21.59 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,6 +339,8 @@
 		)
 		(property "Sheetfile" "untimicroSDtled.kicad_sch"
 			(at 21.59 141.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,11 +369,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fddb304d-0a52-4e5e-9772-501df86db575")
 		(property "Sheetname" "Zasilanie"
 			(at 30.48 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,6 +385,8 @@
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
 			(at 30.48 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
