@@ -219,6 +219,52 @@
 		)
 	)
 	(sheet
+		(at 201.93 83.82)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c2114c81-7e1b-41b9-944e-c855e8216019")
+		(property "Sheetname" "USB"
+			(at 201.93 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 201.93 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 153.67 82.55)
 		(size 33.02 19.05)
 		(exclude_from_sim no)

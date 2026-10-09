@@ -4832,16 +4832,6 @@
 		)
 		(uuid "1d376aee-ada4-4857-9fd4-e08d17b06647")
 	)
-	(text "TODO\nsprawdzić te masy na BMS"
-		(exclude_from_sim no)
-		(at 363.474 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1ee17b1e-3693-41d0-ab2d-50c17fcb3288")
-	)
 	(text "Battery gauge\nMAX17215"
 		(exclude_from_sim no)
 		(at 226.568 160.528 0)
@@ -4862,6 +4852,16 @@
 		)
 		(uuid "a8e4680f-6802-4119-bc16-fa035a8f8cff")
 	)
+	(text "Sprawdź debilu VAC"
+		(exclude_from_sim no)
+		(at 75.946 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aba9a6d3-3cac-4692-bce0-314f3d9d070b")
+	)
 	(text "Low - charging\nHigh - charged\nbkink - fault"
 		(exclude_from_sim no)
 		(at 25.4 16.764 0)
@@ -4872,6 +4872,16 @@
 			(justify left)
 		)
 		(uuid "c49866e7-1079-4aec-ae57-25eefeb714e7")
+	)
+	(text "sprawdź debilu pomiar prądu"
+		(exclude_from_sim no)
+		(at 174.498 122.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6db5462-80fe-415a-91b0-3dcea55804d6")
 	)
 	(junction
 		(at 326.39 85.09)
@@ -5106,12 +5116,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e24f9d2b-6549-440f-a209-fcb0bb1fa322")
-	)
-	(junction
-		(at 194.31 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5233975-9cdd-4966-946f-2bd10b489465")
 	)
 	(junction
 		(at 397.51 139.7)
@@ -5667,7 +5671,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 123.19) (xy 195.58 123.19)
+			(xy 193.04 123.19) (xy 195.58 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5797,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9ef321-c45f-4ea9-bd37-a57b5d9f53a1")
+	)
+	(wire
+		(pts
 			(xy 83.82 54.61) (xy 88.9 54.61)
 		)
 		(stroke
@@ -5874,16 +5888,6 @@
 			(type default)
 		)
 		(uuid "6eba640b-1d66-4572-99bd-2e273dbf7d4f")
-	)
-	(wire
-		(pts
-			(xy 194.31 123.19) (xy 194.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efad31e-42af-4674-a8ae-f66d3f922e2b")
 	)
 	(wire
 		(pts
@@ -6027,7 +6031,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 187.96 130.81)
+			(xy 179.07 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6124,16 +6128,6 @@
 			(type default)
 		)
 		(uuid "8fba5282-6a22-4a87-aa8e-08131d59744d")
-	)
-	(wire
-		(pts
-			(xy 195.58 125.73) (xy 194.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9011c716-75ec-4912-96bb-2531e6c5d2cb")
 	)
 	(wire
 		(pts
@@ -6427,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 130.81) (xy 195.58 130.81)
+			(xy 186.69 130.81) (xy 195.58 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6747,16 +6741,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 123.19) (xy 194.31 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e55148aa-507b-4382-9b9d-6d695f0a8c1d")
-	)
-	(wire
-		(pts
 			(xy 109.22 87.63) (xy 119.38 87.63)
 		)
 		(stroke
@@ -7055,6 +7039,16 @@
 		)
 		(uuid "3c91476d-2eee-4b39-83e7-44f3df284ab9")
 	)
+	(label "SRP"
+		(at 193.04 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ca24a32-332e-4ed6-b32e-63e14b078db7")
+	)
 	(label "CCFG"
 		(at 195.58 92.71 180)
 		(effects
@@ -7116,7 +7110,7 @@
 		(uuid "74d72768-3695-4ca5-a2f2-db0eddb7103a")
 	)
 	(label "Pack-"
-		(at 185.42 130.81 180)
+		(at 179.07 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7692,7 +7686,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 190.5 130.81 90)
+		(at 184.15 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7703,7 +7697,7 @@
 		(fields_autoplaced yes)
 		(uuid "02f6ce43-1385-4439-8a8c-8726961c7359")
 		(property "Reference" "R37"
-			(at 190.5 125.73 90)
+			(at 184.15 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7713,7 +7707,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 190.5 128.27 90)
+			(at 184.15 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7723,7 +7717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 130.81 0)
+			(at 184.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +7728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 130.81 0)
+			(at 184.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7739,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 190.5 130.81 0)
+			(at 184.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

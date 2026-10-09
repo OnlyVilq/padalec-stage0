@@ -754,7 +754,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "TH1-2,L1,Q1-2,R31,R33-42,#PWR27-40,C35-40",
+    "used_designators": "TH1-2,L1,U4,Q1-2,R31,R33-43,#PWR27-42,C35-45",
     "variants": []
   },
   "sheets": [
@@ -785,6 +785,10 @@
     [
       "c7abfbb5-31e7-4a58-850e-a47ecaa55fa9",
       "EDP 1"
+    ],
+    [
+      "c2114c81-7e1b-41b9-944e-c855e8216019",
+      "USB"
     ]
   ],
   "text_variables": {},
