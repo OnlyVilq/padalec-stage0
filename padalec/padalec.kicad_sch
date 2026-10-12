@@ -115,7 +115,7 @@
 		)
 		(uuid "e6020379-774e-4f45-ab7e-a4a07e108dd4")
 	)
-	(text "Stage2:\n\n[*]eDP\n[ ] USB 2.0 (dotyk)\n[ ]HDMI tx"
+	(text "Stage2:\n\n[*]eDP\n[ ]HDMI tx"
 		(exclude_from_sim no)
 		(at 151.384 33.782 0)
 		(effects
