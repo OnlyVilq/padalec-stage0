@@ -690,7 +690,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "100k",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -754,7 +754,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "TH1-2,L1,U4,Q1-2,R31,R33-43,R45-46,Y1,#PWR27-51,C35-51",
+    "used_designators": "J6-7,C35-51,#PWR27-53,Y1,JP2,R31,R33-43,R45-60,Q1-2,U4,L1,TH1-2",
     "variants": []
   },
   "sheets": [
@@ -788,7 +788,11 @@
     ],
     [
       "c2114c81-7e1b-41b9-944e-c855e8216019",
-      "USB"
+      "USB-internal"
+    ],
+    [
+      "7da7b837-1872-4a4c-88ce-e2997f969bb5",
+      "USB-external"
     ]
   ],
   "text_variables": {},
