@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "47ce716c-2438-4f9f-a985-5c791d3cb624")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 48.26 35.56)
+		(size 26.67 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e2e7e904-0a7c-4711-be73-8ff5cf11e966")
+		(property "Sheetname" "PCIE CLOCK"
+			(at 48.26 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_clock.kicad_sch"
+			(at 48.26 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "13")
+				)
+			)
+		)
+	)
+)
