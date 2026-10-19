@@ -62,17 +62,6 @@
 			)
 		)
 		(symbol "9FGV0441AKLF_0_1"
-			(rectangle
-				(start -8.89 0)
-				(end 24.13 -49.53)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 3.81 -12.7) (xy 6.35 -12.7) (xy 6.35 -10.16) (xy 8.89 -10.16) (xy 8.89 -12.7) (xy 11.43 -12.7)
@@ -87,6 +76,114 @@
 			)
 		)
 		(symbol "9FGV0441AKLF_1_1"
+			(rectangle
+				(start -8.89 0)
+				(end 24.13 -49.53)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -1.27) (xy -5.08 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -16.51) (xy -5.08 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -30.48) (xy -8.89 -30.48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 -30.48) (xy -2.54 -30.48) (xy -2.54 -40.64) (xy -8.89 -40.64)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -5.08) (xy 16.51 -5.08) (xy 16.51 -29.21) (xy 24.13 -29.21)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -11.43) (xy 19.05 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -17.78) (xy 19.05 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -24.13) (xy 19.05 -24.13)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin input line
 				(at 26.67 -31.75 180)
 				(length 2.54)
@@ -288,7 +385,7 @@
 			(pin input line
 				(at -11.43 -31.75 0)
 				(length 2.54)
-				(name "OE0#"
+				(name "~{OE0}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -324,7 +421,7 @@
 			(pin input line
 				(at 26.67 -8.89 180)
 				(length 2.54)
-				(name "DIF0#"
+				(name "~{DIF0}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -378,7 +475,7 @@
 			(pin input line
 				(at -11.43 -34.29 0)
 				(length 2.54)
-				(name "OE1#"
+				(name "~{OE1}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -414,7 +511,7 @@
 			(pin input line
 				(at 26.67 -15.24 180)
 				(length 2.54)
-				(name "DIF1"
+				(name "~{DIF1}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -486,7 +583,7 @@
 			(pin input line
 				(at 26.67 -21.59 180)
 				(length 2.54)
-				(name "DIF2#"
+				(name "~{DIF2}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -504,7 +601,7 @@
 			(pin input line
 				(at -11.43 -36.83 0)
 				(length 2.54)
-				(name "OE2#"
+				(name "~{OE2}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -576,7 +673,7 @@
 			(pin input line
 				(at 26.67 -27.94 180)
 				(length 2.54)
-				(name "DIF3#"
+				(name "~{DIF3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -594,7 +691,7 @@
 			(pin input line
 				(at -11.43 -39.37 0)
 				(length 2.54)
-				(name "OE3#"
+				(name "~{OE3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -630,7 +727,7 @@
 			(pin input line
 				(at -11.43 -43.18 0)
 				(length 2.54)
-				(name "CKPWRGD_PD#"
+				(name "~{CKPWRGD_PD}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -727,7 +824,7 @@
 						)
 					)
 				)
-				(number "46"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
