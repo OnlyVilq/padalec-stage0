@@ -5,8 +5,195 @@
 	(uuid "47ce716c-2438-4f9f-a985-5c791d3cb624")
 	(paper "A4")
 	(lib_symbols)
+	(text "Sprawdzić czy nie warto zrobić portów\n- x2\n- x1\n- x1"
+		(exclude_from_sim no)
+		(at 74.93 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64564643-6407-434e-8444-5f9cb39a9a04")
+	)
+	(text "PORT A"
+		(exclude_from_sim no)
+		(at 126.492 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd0786be-e9e2-4757-ab89-ad5c9c6bc784")
+	)
+	(bus
+		(pts
+			(xy 96.52 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68849e3-cb5e-4cff-b9b6-e73814363980")
+	)
+	(hierarchical_label "PCIE_D"
+		(shape bidirectional)
+		(at 96.52 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aa2d6ea-9895-4866-bcd7-b1d21cb5c8f4")
+	)
+	(hierarchical_label "PCIE_B"
+		(shape bidirectional)
+		(at 96.52 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e1b4b7f-3b9f-4e2f-b62c-88f47062c251")
+	)
+	(hierarchical_label "PCIE_A"
+		(shape bidirectional)
+		(at 96.52 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "928aba01-8b37-4a9d-9976-d4fb5eb6af7c")
+	)
+	(hierarchical_label "PCIE_C"
+		(shape bidirectional)
+		(at 96.52 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d79cebe2-2255-4203-8236-d3980f1574df")
+	)
 	(sheet
-		(at 48.26 35.56)
+		(at 124.46 63.5)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "62d5f724-3bfb-48fb-8618-df00dbf2176a")
+		(property "Sheetname" "M2_E_x1"
+			(at 124.46 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2_E_x1.kicad_sch"
+			(at 124.46 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE" bidirectional
+			(at 124.46 69.85 180)
+			(uuid "fea90781-6ae3-41a2-a893-7bb482d9fb52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 31.75)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c64c48f-9ad6-4c49-b653-ef2d4b96d450")
+		(property "Sheetname" "M2_M_x1"
+			(at 124.46 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2_M_x1.kicad_sch"
+			(at 124.46 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE" bidirectional
+			(at 124.46 38.1 180)
+			(uuid "71198b70-4a89-41d9-a679-751b829533fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 22.86)
 		(size 26.67 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21,8 +208,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "e2e7e904-0a7c-4711-be73-8ff5cf11e966")
-		(property "Sheetname" "PCIE CLOCK"
-			(at 48.26 34.8484 0)
+		(property "Sheetname" "PCIE CLOCK 0"
+			(at 20.32 22.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +220,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie_clock.kicad_sch"
-			(at 48.26 50.1146 0)
+			(at 20.32 37.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +234,52 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
 					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 43.18)
+		(size 26.67 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee5f88b3-b723-4e20-a552-1f5ca1b301af")
+		(property "Sheetname" "PCIE CLOCK 1"
+			(at 20.32 42.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_clock.kicad_sch"
+			(at 20.32 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "16")
 				)
 			)
 		)

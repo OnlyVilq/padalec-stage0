@@ -447,6 +447,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -754,7 +755,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "J6-7,C35-73,FB1,#PWR27-68,Y1-2,JP2,R22,R24-26,R31,R33-43,R45-73,Q1-2,U4-7,L1-3,TH1-2",
+    "used_designators": "#PWR27-75,FB1-2,Y1-3,C35-83,J3,J5-8,JP2,R22,R24-26,R31,R33-43,R45-83,L1-3,Q1-2,U4-8,TH1-2",
     "variants": []
   },
   "sheets": [
@@ -808,7 +809,19 @@
     ],
     [
       "e2e7e904-0a7c-4711-be73-8ff5cf11e966",
-      "PCIE CLOCK"
+      "PCIE CLOCK 0"
+    ],
+    [
+      "6c64c48f-9ad6-4c49-b653-ef2d4b96d450",
+      "M2_M_x1"
+    ],
+    [
+      "62d5f724-3bfb-48fb-8618-df00dbf2176a",
+      "M2_E_x1"
+    ],
+    [
+      "ee5f88b3-b723-4e20-a552-1f5ca1b301af",
+      "PCIE CLOCK 1"
     ]
   ],
   "text_variables": {},
