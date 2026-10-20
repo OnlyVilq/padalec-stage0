@@ -1553,6 +1553,17 @@
 		)
 		(uuid "21cd50d4-e00d-4132-95ee-a2f3dda4d878")
 	)
+	(text "Obsadzenie protów\n- m2 e 1\n- m2 e 2\n- klawiatura\n- idk"
+		(exclude_from_sim no)
+		(at 263.398 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "654c3467-a971-4239-9051-0681d04df579")
+	)
 	(text "OGARNĄĆ KRYSZTAŁ"
 		(exclude_from_sim no)
 		(at 89.154 71.374 0)

@@ -5,17 +5,6 @@
 	(uuid "47ce716c-2438-4f9f-a985-5c791d3cb624")
 	(paper "A4")
 	(lib_symbols)
-	(text "Sprawdzić czy nie warto zrobić portów\n- x2\n- x1\n- x1"
-		(exclude_from_sim no)
-		(at 74.93 66.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64564643-6407-434e-8444-5f9cb39a9a04")
-	)
 	(text "PORT A"
 		(exclude_from_sim no)
 		(at 126.492 26.67 0)
@@ -26,6 +15,310 @@
 		)
 		(uuid "bd0786be-e9e2-4757-ab89-ad5c9c6bc784")
 	)
+	(junction
+		(at 173.99 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4864b106-79e5-4fe4-927d-3eb206dbb4d0")
+	)
+	(bus_entry
+		(at 76.2 41.91)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1518bc10-c732-4dcc-965a-bd5d3033c713")
+	)
+	(bus_entry
+		(at 76.2 72.39)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285fd9e8-2da5-431d-8be5-e61e5496af46")
+	)
+	(bus_entry
+		(at 76.2 57.15)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c95c13-6a4d-4116-bf80-76f4a4714fcd")
+	)
+	(bus_entry
+		(at 76.2 59.69)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e6ee67-5517-4ad2-bc60-6e8b7cdf487b")
+	)
+	(bus_entry
+		(at 76.2 66.04)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70734ef5-1057-465c-a2f4-47651d41d9a4")
+	)
+	(bus_entry
+		(at 76.2 33.02)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f33006-2fd6-4e21-8436-964373142f24")
+	)
+	(bus_entry
+		(at 76.2 26.67)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b5020c-67a3-4bd8-8f31-f2c3091a1ddf")
+	)
+	(bus_entry
+		(at 76.2 35.56)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a25c2a-da76-4c44-8d65-fa93c72c9178")
+	)
+	(bus_entry
+		(at 76.2 69.85)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4bc039-e30d-4a46-bef6-3df74dd4442e")
+	)
+	(bus_entry
+		(at 76.2 39.37)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cb379b-90a8-4704-9ab4-616ac0a794a1")
+	)
+	(bus_entry
+		(at 76.2 29.21)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb73e3e1-a6a1-43bb-9465-a40bd25479d0")
+	)
+	(bus_entry
+		(at 76.2 63.5)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1d2a43-84fe-4c51-bf67-ee6ffbf47955")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0117e04a-bdc5-4671-96ca-ff453ae1c247")
+	)
+	(bus
+		(pts
+			(xy 96.52 45.72) (xy 118.11 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1e5547-e5f6-460b-8ae5-fb2a7904a96e")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e8a421-601b-4ce5-8eb1-3b456213af07")
+	)
+	(bus
+		(pts
+			(xy 76.2 21.59) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b76b517-31e4-46ba-b6f9-bc72be9e5d91")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 73.66 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f17ba3a-849d-4ebe-a73e-d53dfb89bce9")
+	)
+	(wire
+		(pts
+			(xy 46.99 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd2d4df-a807-4555-b026-36e2ebbf5d36")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a34bee5-5773-4555-b3fd-8766d0ec100a")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.83) (xy 73.66 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1c3932-297f-4a7e-a6be-618d97bd41fb")
+	)
+	(bus
+		(pts
+			(xy 171.45 19.05) (xy 78.74 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603112c3-3c8c-4748-8769-be314a2a4b7f")
+	)
+	(bus
+		(pts
+			(xy 173.99 66.04) (xy 173.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba9d467-1407-4aa2-bf76-96803a08299f")
+	)
+	(wire
+		(pts
+			(xy 46.99 30.48) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7193548f-6cba-48ff-b4c5-ec9423c237c4")
+	)
+	(bus
+		(pts
+			(xy 166.37 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef476e7-08cd-4271-9efc-12fb38c177e0")
+	)
+	(wire
+		(pts
+			(xy 46.99 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c69bb0-93aa-48c1-9054-38edb6343e93")
+	)
+	(wire
+		(pts
+			(xy 46.99 24.13) (xy 73.66 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf4ad2a-f8e8-40b4-b400-a5d1cdd62608")
+	)
+	(bus
+		(pts
+			(xy 76.2 21.59) (xy 78.74 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6c3124-ea55-4581-bdbd-6d7b838baa73")
+	)
+	(bus
+		(pts
+			(xy 173.99 35.56) (xy 166.37 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b0915b-a613-444d-a5b4-57a6e105a457")
+	)
+	(bus
+		(pts
+			(xy 118.11 45.72) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9e6af7-5407-41a0-954d-6d39f1a6c47b")
+	)
+	(bus
+		(pts
+			(xy 124.46 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2ee336-86b9-4b20-9b09-1fc11c9be8ae")
+	)
+	(bus
+		(pts
+			(xy 173.99 21.59) (xy 171.45 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9bda8-38e7-4a41-9af3-d88f4af39028")
+	)
 	(bus
 		(pts
 			(xy 96.52 38.1) (xy 124.46 38.1)
@@ -35,6 +328,166 @@
 			(type default)
 		)
 		(uuid "d68849e3-cb5e-4cff-b9b6-e73814363980")
+	)
+	(bus
+		(pts
+			(xy 173.99 35.56) (xy 173.99 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1f2d17-8395-4b20-b04d-7b6d44a89c45")
+	)
+	(wire
+		(pts
+			(xy 46.99 26.67) (xy 73.66 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d1628d-d893-4f6f-b4a1-be950173954f")
+	)
+	(wire
+		(pts
+			(xy 46.99 54.61) (xy 73.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15d1723-db91-40da-be5b-cec7ff184b79")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f09c55-75b0-4894-be06-2f2e605075bc")
+	)
+	(label "Port0_P"
+		(at 58.42 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "351217d0-a1f4-4a0a-81fb-d070477f65e3")
+	)
+	(label "Port0_N"
+		(at 58.42 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36394bb6-dcbb-448a-a4a3-fa817ae73a0c")
+	)
+	(label "PCIE_B_P"
+		(at 58.42 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57a7859f-92a7-40dc-ac8b-5ca8a0730bbb")
+	)
+	(label "Port1_N"
+		(at 58.42 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d68c649-d5e4-4d05-86ba-5c86b3d3f7e4")
+	)
+	(label "Port1_P"
+		(at 58.42 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a269b4bd-18bd-48b2-a1ad-8c5e157d5367")
+	)
+	(label "PCIE_A_N"
+		(at 58.42 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abf6dc35-3197-43ce-b5e8-408497c74dfd")
+	)
+	(label "PCIE_B_N"
+		(at 58.42 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad119d65-0dfe-417f-b89a-309ce1f87f3a")
+	)
+	(label "PCIE_C_N"
+		(at 58.42 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9112d7-6d2f-4761-b556-9955ca07273c")
+	)
+	(label "PCIE_D_N"
+		(at 58.42 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2a5694e-276d-435e-b764-661582d3d172")
+	)
+	(label "PCIE_D_P"
+		(at 58.42 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9662a99-6dd1-4b96-a657-3da840ff5ae1")
+	)
+	(label "PCIE_A_P"
+		(at 58.42 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb25b4df-1433-4ce9-a7c3-dac1288edf8e")
+	)
+	(label "PCIE_C_P"
+		(at 58.42 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f242185a-ab28-4cbd-abd0-61a9c13dd96c")
 	)
 	(hierarchical_label "PCIE_D"
 		(shape bidirectional)
@@ -79,6 +532,112 @@
 			(justify right)
 		)
 		(uuid "d79cebe2-2255-4203-8236-d3980f1574df")
+	)
+	(sheet
+		(at 20.32 53.34)
+		(size 26.67 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "19bea534-bffc-4de6-86aa-db9da8b56e26")
+		(property "Sheetname" "PCIE CLOCK 1"
+			(at 20.32 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie_clock.kicad_sch"
+			(at 20.32 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIF0" output
+			(at 46.99 54.61 0)
+			(uuid "bb7471c1-bcc1-4c26-a997-ab551160464c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIF1" output
+			(at 46.99 60.96 0)
+			(uuid "65614271-7108-4e93-a355-7c7ff09b02d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIF2" output
+			(at 46.99 67.31 0)
+			(uuid "21bf3e43-d3aa-492d-bf46-0b4e3347c431")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF0}" output
+			(at 46.99 57.15 0)
+			(uuid "5b4d458e-0362-4b7e-8571-55eb83f319e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF1}" output
+			(at 46.99 63.5 0)
+			(uuid "56ab6ca1-c607-4307-aedf-b84faba03cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF2}" output
+			(at 46.99 69.85 0)
+			(uuid "45ce9e98-136c-47e2-a09f-593b5164ac13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "14")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 124.46 63.5)
@@ -128,10 +687,30 @@
 				(justify left)
 			)
 		)
+		(pin "USB20" bidirectional
+			(at 124.46 67.31 180)
+			(uuid "07cd1182-3148-4575-917e-23448e2e5075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RefClk" input
+			(at 166.37 66.04 0)
+			(uuid "7d5716fa-9427-4b33-942f-869811e4d976")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -184,17 +763,103 @@
 				(justify left)
 			)
 		)
+		(pin "RefClk" input
+			(at 166.37 35.56 0)
+			(uuid "feddc9e4-4f37-449b-87d8-925e69b7f97a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
-					(page "14")
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 93.98)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bce6007d-8512-4bfd-9ae2-873b48c4fe72")
+		(property "Sheetname" "M2_E_x2"
+			(at 124.46 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2_E_x1.kicad_sch"
+			(at 124.46 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE" bidirectional
+			(at 124.46 100.33 180)
+			(uuid "0c9548cd-dbd6-4c35-ba43-6a87e1f7b9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB20" bidirectional
+			(at 124.46 97.79 180)
+			(uuid "7d9e6a8c-3a9b-4b2e-b890-bfc0fea6abaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RefClk" input
+			(at 124.46 102.87 180)
+			(uuid "d7532e3a-43a0-4e66-befd-087f5dee12b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
+					(page "17")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 20.32 22.86)
-		(size 26.67 13.97)
+		(size 26.67 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -220,7 +885,7 @@
 			)
 		)
 		(property "Sheetfile" "pcie_clock.kicad_sch"
-			(at 20.32 37.4146 0)
+			(at 20.32 47.5746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -228,58 +893,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIF0" output
+			(at 46.99 24.13 0)
+			(uuid "bc0c4b67-c909-4b5d-ac2d-27526245a9e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIF1" output
+			(at 46.99 30.48 0)
+			(uuid "8bbd189f-c3bd-4d39-a165-ff82b0203333")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIF2" output
+			(at 46.99 36.83 0)
+			(uuid "2b0a7f68-a8c6-45b4-847e-115bf63ef291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF0}" output
+			(at 46.99 26.67 0)
+			(uuid "74908c4c-fc6e-4f6c-a07b-f3c11948a22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF1}" output
+			(at 46.99 33.02 0)
+			(uuid "6d45170d-9c74-4d5e-81db-6974ae0e5273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DIF2}" output
+			(at 46.99 39.37 0)
+			(uuid "a1661093-19bf-4bb0-8d40-b0004a4ccf53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
 					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 43.18)
-		(size 26.67 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "ee5f88b3-b723-4e20-a552-1f5ca1b301af")
-		(property "Sheetname" "PCIE CLOCK 1"
-			(at 20.32 42.4684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcie_clock.kicad_sch"
-			(at 20.32 57.7346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
-					(page "16")
 				)
 			)
 		)

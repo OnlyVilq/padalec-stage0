@@ -444,7 +444,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -698,7 +698,33 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "PCIE": [
+        "RXP",
+        "RXN",
+        "TXP",
+        "TXN",
+        "REFCLK_IN_P",
+        "REFCLK_IN_N",
+        "PERST#",
+        "CLKREQ#",
+        "WAKE#"
+      ],
+      "REFCLK": [
+        "PCIE_A_P",
+        "PCIE_A_N",
+        "PCIE_B_P",
+        "PCIE_B_N",
+        "PCIE_C_P",
+        "PCIE_C_N",
+        "PCIE_D_P",
+        "PCIE_D_N",
+        "Port0_P",
+        "Port0_N",
+        "Port1_P",
+        "Port1_N"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -755,7 +781,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "#PWR27-75,FB1-2,Y1-3,C35-83,J3,J5-8,JP2,R22,R24-26,R31,R33-43,R45-83,L1-3,Q1-2,U4-8,TH1-2",
+    "used_designators": "#PWR27-79,FB1-2,Y1-3,D4,C35-85,J3,J5-8,JP2,R22,R24-26,R31,R33-43,R45-86,L1-3,Q1-2,U4-8,TH1-2",
     "variants": []
   },
   "sheets": [
@@ -812,6 +838,10 @@
       "PCIE CLOCK 0"
     ],
     [
+      "19bea534-bffc-4de6-86aa-db9da8b56e26",
+      "PCIE CLOCK 1"
+    ],
+    [
       "6c64c48f-9ad6-4c49-b653-ef2d4b96d450",
       "M2_M_x1"
     ],
@@ -820,8 +850,8 @@
       "M2_E_x1"
     ],
     [
-      "ee5f88b3-b723-4e20-a552-1f5ca1b301af",
-      "PCIE CLOCK 1"
+      "bce6007d-8512-4bfd-9ae2-873b48c4fe72",
+      "M2_E_x2"
     ]
   ],
   "text_variables": {},
