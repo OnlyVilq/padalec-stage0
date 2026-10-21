@@ -699,6 +699,18 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "Ethernet": [
+        "TD1_P",
+        "TD1_N",
+        "TD2_P",
+        "TD2_N",
+        "TD3_P",
+        "TD3_N",
+        "TD4_P",
+        "TD4_N",
+        "Gled",
+        "Yled"
+      ],
       "PCIE": [
         "RXP",
         "RXN",
@@ -781,7 +793,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "#PWR27-79,FB1-2,Y1-3,D4,C35-85,J3,J5-8,JP2,R22,R24-26,R31,R33-43,R45-86,L1-3,Q1-2,U4-8,TH1-2",
+    "used_designators": "TH1-2,Q1-2,R22,R24-26,R31,R33-43,R45-93,JP2-4,J3,J5-8,C35-94,U4-19,D4,P1,L1-4,FB1-2,FL7-13,Y1-3,#PWR27-98",
     "variants": []
   },
   "sheets": [
@@ -820,6 +832,10 @@
     [
       "7da7b837-1872-4a4c-88ce-e2997f969bb5",
       "USB-external"
+    ],
+    [
+      "4205ee5f-609c-490d-ab87-ba760271a42d",
+      "Ethernet"
     ],
     [
       "d259f574-ded1-4a84-9e4f-740ef0accc7f",

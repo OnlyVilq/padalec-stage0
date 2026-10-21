@@ -651,6 +651,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "UWAGA\n\nzostał burdel po matrycy z HP\nzweryfikować wszystko (zwłaszcza kondensatory odsprzęgające)"
+		(exclude_from_sim no)
+		(at 140.97 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fa717ff-1aac-4920-8034-1d60c8a7723e")
+	)
 	(text "AZ5125-02S.R7G_SOT23-3"
 		(exclude_from_sim no)
 		(at 78.232 159.766 0)
@@ -684,15 +694,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5dd92c7-e2cc-40ec-b281-18c19d3e81c3")
-	)
-	(bus_entry
-		(at 120.65 72.39)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a81f532-7773-469e-8450-2379bf677c28")
 	)
 	(wire
 		(pts
