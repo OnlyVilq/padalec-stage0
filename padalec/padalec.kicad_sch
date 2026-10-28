@@ -5,18 +5,6 @@
 	(uuid "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d")
 	(paper "A4")
 	(lib_symbols)
-	(rectangle
-		(start 59.69 29.21)
-		(end 87.63 60.96)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6caab4d6-f5fd-4f08-a663-c7829caf0b61")
-	)
 	(text "Stage1:\n\n[x]RJ45"
 		(exclude_from_sim no)
 		(at 141.478 33.274 0)
@@ -27,16 +15,16 @@
 		)
 		(uuid "0c617cc2-a724-44bc-918e-d820d30f6f72")
 	)
-	(text "Roadmap:\n\nRJ 45\n\nHDMI TX\n\nPCIE 3.0 x1\n\nUSB C\n\nUSB 3.0 jak będzie czas\n\nHDMI RX jak będzie czas"
+	(text "ToDo:\n-Transil w usb c\n-pewnie więcej transili\n-podłączyć i posprzątać usb do SOM strony\n-więcej transili\n-posprzątać EDP\n-sklecić HDMI\n-dokończyć PCIE\n-transil na VBUS usb 3"
 		(exclude_from_sim no)
-		(at 60.96 43.942 0)
+		(at 232.664 23.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9004e12e-53e9-4187-b426-ecf860f94970")
+		(uuid "2f59e03e-eb1a-4d97-a5e0-0ed902228f11")
 	)
 	(text "Stage3\n\nPCIE:\n2*m2 m x1\n2*m2 e x1"
 		(exclude_from_sim no)
@@ -49,7 +37,7 @@
 		)
 		(uuid "96365ce6-e99e-4499-a0cf-3d39a6ba37cb")
 	)
-	(text "Stage0:\n\n[ ]zasilanie\n[x]sd\n[x]uart\n[*]audio\n[x]RTC"
+	(text "Stage0:\n\n[x]zasilanie\n[x]sd\n[x]uart\n[ ]audio\n[x]RTC"
 		(exclude_from_sim no)
 		(at 102.108 36.83 0)
 		(effects
@@ -60,7 +48,7 @@
 		)
 		(uuid "9963481a-cc64-48e2-b887-4b537a738cc4")
 	)
-	(text "Stage4:\n\n[ ] USB 2.0\n[ ] USB 3.1"
+	(text "Stage4:\n\n[x] USB 2.0\n[ ] USB 3.x"
 		(exclude_from_sim no)
 		(at 196.596 32.258 0)
 		(effects
@@ -117,7 +105,7 @@
 	)
 	(text "Rozpiska z tematu:\n- HDMI RX\n- HDMI TX\n- USB 3.1\n- USB-C z bajerami\n- PCIE"
 		(exclude_from_sim no)
-		(at 232.664 44.958 0)
+		(at 194.056 11.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
