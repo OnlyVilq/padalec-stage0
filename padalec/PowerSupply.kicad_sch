@@ -4884,6 +4884,284 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5523,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 204.47) (xy 101.6 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02043eae-67fb-48cf-b70b-c32d341787d3")
+	)
+	(wire
+		(pts
 			(xy 137.16 77.47) (xy 140.97 77.47)
 		)
 		(stroke
@@ -5710,6 +5998,16 @@
 			(type default)
 		)
 		(uuid "1b4daed4-276e-43de-8bf5-bb29b75ff563")
+	)
+	(wire
+		(pts
+			(xy 101.6 182.88) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b67dab2-0850-40ec-9c2b-405a31b134ae")
 	)
 	(wire
 		(pts
@@ -6143,6 +6441,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 261.62) (xy 101.6 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52717762-300e-426d-8dfc-88f437b36b6d")
+	)
+	(wire
+		(pts
 			(xy 78.74 109.22) (xy 78.74 115.57)
 		)
 		(stroke
@@ -6210,6 +6518,16 @@
 			(type default)
 		)
 		(uuid "63da9111-c73d-4e12-a3c8-dbdc53e5b318")
+	)
+	(wire
+		(pts
+			(xy 91.44 166.37) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c467f9-940f-4a2d-acaa-cbe218a6e8a8")
 	)
 	(wire
 		(pts
@@ -6320,6 +6638,16 @@
 			(type default)
 		)
 		(uuid "72ec4956-145b-4228-91b7-5d6951673636")
+	)
+	(wire
+		(pts
+			(xy 72.39 187.96) (xy 74.93 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73bf0f2e-9a52-495f-8707-a4867df11536")
 	)
 	(wire
 		(pts
@@ -6453,6 +6781,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 168.91) (xy 74.93 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b000b8c-99b4-44ad-8f06-41835334f3c7")
+	)
+	(wire
+		(pts
 			(xy 113.03 52.07) (xy 113.03 54.61)
 		)
 		(stroke
@@ -6550,6 +6888,16 @@
 			(type default)
 		)
 		(uuid "91fd34be-6d77-4609-b7bd-9fd1c225c483")
+	)
+	(wire
+		(pts
+			(xy 91.44 242.57) (xy 101.6 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92750357-3739-401f-ba32-b8e67f3c5b4b")
 	)
 	(wire
 		(pts
@@ -6793,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 261.62) (xy 72.39 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26d5c0f-d4ef-49dd-9cad-4fbaa2807931")
+	)
+	(wire
+		(pts
 			(xy 257.81 139.7) (xy 255.27 139.7)
 		)
 		(stroke
@@ -6953,6 +7311,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 242.57) (xy 72.39 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73473e8-cb56-4b2e-9029-4012ce4cd9dc")
+	)
+	(wire
+		(pts
 			(xy 158.75 130.81) (xy 158.75 128.27)
 		)
 		(stroke
@@ -6960,6 +7328,16 @@
 			(type default)
 		)
 		(uuid "c918b00e-8e76-4d37-980c-a4420d57ea8c")
+	)
+	(wire
+		(pts
+			(xy 91.44 185.42) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7daf20-242e-4145-8bc9-0308f3d6c7b2")
 	)
 	(wire
 		(pts
@@ -7000,6 +7378,16 @@
 			(type default)
 		)
 		(uuid "d0558985-6b59-4e3d-b88a-ee8e4bdf9663")
+	)
+	(wire
+		(pts
+			(xy 74.93 204.47) (xy 72.39 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d491e546-59f9-48b4-9e9f-642885e64a9d")
 	)
 	(wire
 		(pts
@@ -7090,6 +7478,16 @@
 			(type default)
 		)
 		(uuid "e0931a11-8d1f-4481-90b3-34c45ca7eaa6")
+	)
+	(wire
+		(pts
+			(xy 74.93 223.52) (xy 72.39 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e12987-448c-41b1-a103-3940b228813e")
 	)
 	(wire
 		(pts
@@ -7243,6 +7641,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 223.52) (xy 101.6 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91cedcc-a684-4bda-8f3e-694f9ed5914a")
+	)
+	(wire
+		(pts
 			(xy 312.42 104.14) (xy 312.42 107.95)
 		)
 		(stroke
@@ -7313,6 +7721,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 185.42) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21641f4-ea3f-44e1-b21d-d136878418b7")
+	)
+	(wire
+		(pts
 			(xy 331.47 83.82) (xy 340.36 83.82)
 		)
 		(stroke
@@ -7340,6 +7758,16 @@
 			(type default)
 		)
 		(uuid "f54e4d58-6815-4f23-9890-79d624f2a5e1")
+	)
+	(wire
+		(pts
+			(xy 74.93 166.37) (xy 72.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6203166-5f61-4376-a8ba-356197f9b046")
 	)
 	(wire
 		(pts
@@ -7380,6 +7808,16 @@
 			(type default)
 		)
 		(uuid "fbee4345-2e76-4655-80e4-dd87fbdbe4b0")
+	)
+	(wire
+		(pts
+			(xy 101.6 163.83) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6fbc31-e26b-4cf9-9161-b02d42671c13")
 	)
 	(label "VC3"
 		(at 312.42 96.52 180)
@@ -7481,6 +7919,36 @@
 		)
 		(uuid "3ca24a32-332e-4ed6-b32e-63e14b078db7")
 	)
+	(label "3v3_EN"
+		(at 72.39 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ca55943-8103-4b1d-b760-748d9499ef46")
+	)
+	(label "VBUS"
+		(at 72.39 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f935bf2-cd64-4285-84b9-a25be3c26e47")
+	)
+	(label "VBUS"
+		(at 72.39 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fdbbf28-2f49-40ba-893b-c4cb53b3302c")
+	)
 	(label "CCFG"
 		(at 195.58 92.71 180)
 		(effects
@@ -7571,6 +8039,26 @@
 		)
 		(uuid "84ae104d-74f6-4286-86b3-872170a4043e")
 	)
+	(label "VBUS"
+		(at 72.39 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84cb1468-5d71-4f7e-9965-3380187794c0")
+	)
+	(label "VBUS"
+		(at 72.39 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8acb7e50-9980-424c-b08a-e8919507429f")
+	)
 	(label "Bat"
 		(at 323.85 73.66 180)
 		(effects
@@ -7580,6 +8068,16 @@
 			(justify right bottom)
 		)
 		(uuid "96b2e1f8-6e18-44c1-b824-3f9f3ef45aef")
+	)
+	(label "5v_EN"
+		(at 72.39 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dbf188e-2300-45c9-8fb2-f124556fb9bc")
 	)
 	(label "VC4"
 		(at 195.58 115.57 180)
@@ -7611,6 +8109,16 @@
 		)
 		(uuid "b842fe54-d892-4e9e-b377-486215d4d8dc")
 	)
+	(label "VBUS"
+		(at 72.39 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd811f0d-ff49-49e4-9e48-86a4b10faad3")
+	)
 	(label "VC3"
 		(at 195.58 113.03 180)
 		(effects
@@ -7630,6 +8138,16 @@
 			(justify left bottom)
 		)
 		(uuid "c368f042-aac6-4d7c-afb8-5824a9ae375e")
+	)
+	(label "VBUS"
+		(at 72.39 204.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca58a317-2919-49a1-b9dc-dc57deb0f0e4")
 	)
 	(label "VC0"
 		(at 312.42 139.7 180)
@@ -7730,6 +8248,50 @@
 			(justify right bottom)
 		)
 		(uuid "f5e741ae-cc3b-4b77-8ede-48d19786822b")
+	)
+	(hierarchical_label "3v3_PCIE_A"
+		(shape output)
+		(at 101.6 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "171eae5b-545e-454c-9486-59f62eea06ba")
+	)
+	(hierarchical_label "3v3 PCIE_D"
+		(shape output)
+		(at 101.6 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd1be9b-3ee5-4fa2-b653-17a5dadfd555")
+	)
+	(hierarchical_label "3v3_PCIE_B"
+		(shape output)
+		(at 101.6 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e70e48b-7d15-433f-be69-531375c2a6e4")
+	)
+	(hierarchical_label "3v3 PCIE_C"
+		(shape output)
+		(at 101.6 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfc0413a-713f-4e18-9447-fb4d5f94a066")
 	)
 	(symbol
 		(lib_id "BQ77915:BQ7791500PWR")
@@ -9581,6 +10143,84 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e403120-0d31-4f1d-8dac-623c8fac01e7")
+		(property "Reference" "#PWR078"
+			(at 101.6 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7f9555b-256d-46a7-ba23-586fdf818e72")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -11847,6 +12487,84 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c046624-774b-441b-b210-e64c3a6e157a")
+		(property "Reference" "#PWR055"
+			(at 101.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 101.6 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf14cbc7-3ef1-459f-87a2-06951cea8a47")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -15160,8 +15878,266 @@
 		)
 	)
 	(sheet
+		(at 74.93 220.98)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2b320521-5f1b-4aaa-a827-7501ae22aa94")
+		(property "Sheetname" "3V5"
+			(at 74.93 220.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3Buck.kicad_sch"
+			(at 74.93 234.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 74.93 226.06 180)
+			(uuid "19f9f945-a9ba-49b9-86b2-e6107ecc9848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 228.6 180)
+			(uuid "d2c43f59-5491-4778-8843-9e5b005ae6e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 223.52 180)
+			(uuid "6f134a64-b40a-4b70-8bd5-f043ec74af33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 223.52 0)
+			(uuid "16f587ca-3666-4e9b-b403-31ec40803905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 259.08)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9769d302-b39e-40db-b655-695d815b7f94")
+		(property "Sheetname" "3V7"
+			(at 74.93 258.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3Buck.kicad_sch"
+			(at 74.93 272.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 74.93 264.16 180)
+			(uuid "bb9fb48f-785e-4bd4-a5ea-8b8c097410d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 266.7 180)
+			(uuid "50a676f3-68a0-4a77-b37f-f470629d71a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 261.62 180)
+			(uuid "e6ee0197-c68b-4056-acf2-749276f91ff3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 261.62 0)
+			(uuid "70122e1b-5f9d-43bd-a690-b42de9717138")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 240.03)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c2ae3d78-bf4c-4273-9807-69ff6bd53062")
+		(property "Sheetname" "3V6"
+			(at 74.93 239.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3Buck.kicad_sch"
+			(at 74.93 253.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 74.93 245.11 180)
+			(uuid "fcdf6dd2-859d-48f4-b35a-ab3cff63fbf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 247.65 180)
+			(uuid "a9918e1d-509b-4bce-9954-e5ce19d877f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 242.57 180)
+			(uuid "98fa13ff-a767-4adf-8e55-32fdc6ebee7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 242.57 0)
+			(uuid "3094a334-c82c-46f2-9063-d6ff45dacffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 74.93 163.83)
-		(size 34.29 15.24)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15187,7 +16163,7 @@
 			)
 		)
 		(property "Sheetfile" "5vBuck.kicad_sch"
-			(at 74.93 179.6546 0)
+			(at 74.93 177.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15195,6 +16171,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 74.93 168.91 180)
+			(uuid "c830afa3-5aef-4337-a476-8140ada1a215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 171.45 180)
+			(uuid "416b478c-6d99-4c5b-b4dc-9285f34ab0e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 166.37 180)
+			(uuid "a7c86529-5323-4479-a062-6ecbf45133db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 166.37 0)
+			(uuid "80da0ff7-7128-463d-928b-129fb029db6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -15206,8 +16222,8 @@
 		)
 	)
 	(sheet
-		(at 74.93 187.96)
-		(size 34.29 12.7)
+		(at 74.93 182.88)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15222,7 +16238,7 @@
 		)
 		(uuid "e0f3c61a-ed57-4a64-a698-932445d1fe90")
 		(property "Sheetname" "3V3"
-			(at 74.93 187.2484 0)
+			(at 74.93 182.1684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15233,7 +16249,7 @@
 			)
 		)
 		(property "Sheetfile" "3v3Buck.kicad_sch"
-			(at 74.93 201.2446 0)
+			(at 74.93 196.1646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15243,10 +16259,136 @@
 				(justify left top)
 			)
 		)
+		(pin "EN" input
+			(at 74.93 187.96 180)
+			(uuid "f7240132-2cb9-48df-84c7-c81c37706399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 190.5 180)
+			(uuid "5293708b-2234-4ee5-b86a-04b52451ad12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 185.42 180)
+			(uuid "c9c6025f-db81-4796-ada6-7d33bd52595e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 185.42 0)
+			(uuid "33dd56ea-c3a9-41cd-bca3-ec6c09282ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 201.93)
+		(size 16.51 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f69c38a9-fe09-470c-85a6-6523030cb3db")
+		(property "Sheetname" "3V4"
+			(at 74.93 201.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3Buck.kicad_sch"
+			(at 74.93 215.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 74.93 207.01 180)
+			(uuid "88f4ca08-fa02-49d1-8930-0299b100f2fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pGood" input
+			(at 74.93 209.55 180)
+			(uuid "2abba672-810f-40fb-a6e1-5729103cc546")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 74.93 204.47 180)
+			(uuid "0dff0d77-a6c3-42af-bff2-620589f56923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 91.44 204.47 0)
+			(uuid "74d5f0e6-e8ad-4be1-ab0e-d9de0a4b0143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(page "25")
 				)
 			)
 		)
