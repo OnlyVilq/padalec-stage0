@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "kodek audio\nALC5616 "
 		(exclude_from_sim no)
-		(at 236.22 59.182 0)
+		(at 238.252 66.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15,9 +15,9 @@
 		)
 		(uuid "15ef0b6c-55cc-49c2-a8c6-c89c3b02e61e")
 	)
-	(text "ToDo:\n[ ]Transil w usb c\n[x]podłączyć i posprzątać usb do SOM strony\n[ ]posprzątać EDP\n[ ]sklecić HDMI\n[x]dokończyć PCIe\n[ ]transil na VBUS usb 3\n[ ]eDP\n\n[x]audio\n[ ]transil w SD\n[x]SD\n[x]eth"
+	(text "ToDo:\n[ ]zasilanie zegara PCIe\n[ ]Transil w usb c\n[x]podłączyć i posprzątać usb do SOM strony\n[ ]posprzątać EDP\n[ ]sklecić HDMI\n[x]dokończyć PCIe\n[ ]transil na VBUS usb 3\n[ ]eDP\n\n[x]audio\n[ ]transil w SD\n[x]SD\n[x]eth\n\n[ ]p_enable (zasilanie)\n[ ]p_good	(zasilanie)\n[ ]pcie_m disable?\n[ ]enable	(usb power switch)"
 		(exclude_from_sim no)
-		(at 232.664 25.654 0)
+		(at 235.712 38.608 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3818,7 +3818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "230d635b-7c4f-4445-9414-1515fc582d6d")
-		(property "Reference" "U20"
+		(property "Reference" "U17"
 			(at 85.09 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +3919,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
-					(reference "U20")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64df5acd-f89b-4c4b-9e9a-de5f87be326f")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0112"
 			(at 57.15 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -3997,7 +3997,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
-					(reference "#PWR0114")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4015,7 +4015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a2e350e-f4f7-4559-8957-d8656617a920")
-		(property "Reference" "U24"
+		(property "Reference" "U18"
 			(at 85.09 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4116,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
-					(reference "U24")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fe999da-e873-4b75-b50f-78051b075730")
-		(property "Reference" "C101"
+		(property "Reference" "C98"
 			(at 59.69 161.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,7 +4197,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
-					(reference "C101")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab6f7c78-82b1-464e-9dc4-134ba6dc7e8d")
-		(property "Reference" "FL13"
+		(property "Reference" "FL11"
 			(at 202.819 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +4283,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
-					(reference "FL13")
+					(reference "FL11")
 					(unit 1)
 				)
 			)

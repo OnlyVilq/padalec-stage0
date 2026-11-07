@@ -1054,6 +1054,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1180,7 +1319,7 @@
 		(at 71.12 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "911feb10-a573-4fbd-ac36-5887b4edc8b1")
+		(uuid "88562ccd-b57f-44c0-a0f9-4d409b743eaf")
 	)
 	(junction
 		(at 148.59 74.93)
@@ -1250,16 +1389,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 71.12 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ffa19e6-06a8-43a2-939f-abff51fcb4c0")
-	)
-	(wire
-		(pts
 			(xy 71.12 60.96) (xy 71.12 63.5)
 		)
 		(stroke
@@ -1307,6 +1436,16 @@
 			(type default)
 		)
 		(uuid "8413c3c7-faff-4cda-88c1-f2aaa4763abe")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc6ddf8-ef4d-457c-8073-9de809f0a3dd")
 	)
 	(wire
 		(pts
@@ -1418,17 +1557,6 @@
 		)
 		(uuid "1f1101f2-405f-4ce2-baea-d248c143f038")
 	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 59.69 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11c5faab-1159-4af6-9637-98ebdb6194c1")
-	)
 	(hierarchical_label "RTC_bat"
 		(shape output)
 		(at 176.53 67.31 0)
@@ -1452,7 +1580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1271b4d3-6642-408c-af32-245d7980acbb")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR046"
 			(at 168.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1512,7 +1640,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR022")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1530,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1860d578-9aa2-4895-a5de-bb5a6d44f5cd")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR043"
 			(at 87.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1590,7 +1718,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR017")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1608,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff024a8-8a86-43e0-93da-a4ce670bacde")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR045"
 			(at 137.16 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1668,7 +1796,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR021")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1801,7 +1929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38df7ecd-6e47-4e81-a975-0b8af528350f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR042"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1861,7 +1989,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR020")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1879,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "583e0947-3f53-47bc-803a-6b143bfd01b2")
-		(property "Reference" "R21"
+		(property "Reference" "R39"
 			(at 77.47 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +2071,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "R21")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1961,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ad9ffea-36c3-49e0-b825-bfa502818b54")
-		(property "Reference" "C8"
+		(property "Reference" "C27"
 			(at 73.66 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2153,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "C8")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -2160,7 +2288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bcaf8e7-6280-44b8-ab43-b940673007ce")
-		(property "Reference" "C9"
+		(property "Reference" "C28"
 			(at 139.7 71.1262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2352,85 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "C9")
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f02abc-aa88-4e91-89cd-c985242b9eaf")
+		(property "Reference" "#PWR0168"
+			(at 71.12 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "408ba937-d0c9-48a3-a6f8-7e1965c45a15")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7d3f6de-ca9e-4eec-bf30-cf13f00036af")
-		(property "Reference" "R23"
+		(property "Reference" "R40"
 			(at 163.83 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2304,7 +2510,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "R23")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2322,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae223b9c-b08c-4542-9c69-31205b3ca792")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 89.7733 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,7 +2603,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2415,7 +2621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e2bc95-e040-4e99-9879-7a2b51dd51fa")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR041"
 			(at 71.12 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2475,7 +2681,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR019")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2493,7 +2699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68eeed0-dd47-410d-8068-1ece0bda1f48")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR044"
 			(at 116.84 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2553,7 +2759,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/967b99a7-f1de-4a10-a21e-0ed5641f9517"
-					(reference "#PWR018")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
