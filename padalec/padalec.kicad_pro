@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -71,6 +89,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -88,6 +107,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -107,9 +127,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -723,6 +746,21 @@
         "Gled",
         "Yled"
       ],
+      "HDMI": [
+        "D0_P",
+        "D0_N",
+        "D1_P",
+        "D1_N",
+        "D2_P",
+        "D2_N",
+        "D3_P",
+        "D3_N",
+        "CEC",
+        "SCL",
+        "SDA",
+        "SBDP",
+        "SBDN"
+      ],
       "PCIE": [
         "RXP",
         "RXN",
@@ -737,6 +775,16 @@
       "REFCLK": [
         "REFCLK_P",
         "REFCLK_N"
+      ],
+      "SD": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "CMD",
+        "CLK",
+        "DET",
+        "VDD"
       ],
       "USB": [
         "SSTX_P",
@@ -753,6 +801,12 @@
         "SSTX2_N",
         "SSRX2_P",
         "SSTX2_N"
+      ],
+      "audio": [
+        "HPL",
+        "HPR",
+        "MIC_IN",
+        "HP_DET"
       ]
     },
     "connection_grid_size": 50.0,
@@ -811,7 +865,7 @@
         "uuid": "42a0f1b1-aae8-47cf-a169-752d0b6d3e8d"
       }
     ],
-    "used_designators": "TH1-2,Q1-2,R22,R24-26,R31,R33-43,R45-125,JP2-8,J3,J5-9,C35-132,U4-22,D4-5,P1,L1-7,FB1-2,Y1-3,FL7-14,#PWR27-145",
+    "used_designators": "TH1-2,Q1-2,Q4-8,R22,R24-26,R31,R33-43,R45-138,JP2-8,J3,J5-11,C35-135,U4-26,D4-7,P1,L1-7,FB1-2,Y1-3,FL7-19,#PWR27-164",
     "variants": []
   },
   "sheets": [
@@ -926,6 +980,14 @@
     [
       "9769d302-b39e-40db-b655-695d815b7f94",
       "3V7"
+    ],
+    [
+      "b050d483-d5f7-4aac-94a3-e4f1b1293950",
+      "HDMI_tx"
+    ],
+    [
+      "5d56ecdb-32eb-4d07-a9dd-669fc2e3db1b",
+      "Jack_35"
     ]
   ],
   "text_variables": {},

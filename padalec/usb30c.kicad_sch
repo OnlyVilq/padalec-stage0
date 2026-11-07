@@ -3092,16 +3092,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "zmajstrować transil\nTO NIE LINIE RÓŻNICOWE\nnastępuje prąd stały"
-		(exclude_from_sim no)
-		(at 75.438 118.618 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "427aa9d8-60ba-4ac8-86b6-e54641b57328")
-	)
 	(junction
 		(at 57.15 154.94)
 		(diameter 0)
@@ -3200,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 121.92) (xy 64.77 121.92)
+			(xy 62.23 121.92) (xy 74.93 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3240,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 127) (xy 64.77 127)
+			(xy 62.23 127) (xy 74.93 127)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 64.77 111.76)
+			(xy 62.23 111.76) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 116.84) (xy 64.77 116.84)
+			(xy 62.23 116.84) (xy 74.93 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4008,6 +3998,125 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:TPD6E05U06RVZ")
+		(at 85.09 124.46 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a2e350e-f4f7-4559-8957-d8656617a920")
+		(property "Reference" "U24"
+			(at 85.09 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD6E05U06RVZ"
+			(at 85.09 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_R-PUSON-N14"
+			(at 92.075 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
+			(at 93.98 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "6-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-14"
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57b587c0-909a-469f-895a-5f9c8350d3ec")
+		)
+		(pin "13"
+			(uuid "5015bb6e-0128-4949-9542-4f3e8dad2bf2")
+		)
+		(pin "3"
+			(uuid "0544df89-752e-4231-8c56-20401a460a82")
+		)
+		(pin "14"
+			(uuid "7e93ea7a-1eb3-40bc-9004-e10375250651")
+		)
+		(pin "7"
+			(uuid "1adb3039-53b3-4664-91bb-6c0fe7023119")
+		)
+		(pin "6"
+			(uuid "c46ad8af-3cfe-4e5e-9a5c-6efd6fd5a992")
+		)
+		(pin "9"
+			(uuid "ff7b5f8d-21aa-403e-ae59-a96618967aa1")
+		)
+		(pin "8"
+			(uuid "873369da-6221-40e7-8e79-72f8d53fa152")
+		)
+		(pin "5"
+			(uuid "2cc45682-4e4f-4cf4-a323-bdb912bbbf24")
+		)
+		(pin "4"
+			(uuid "c2ad8ca5-2ff3-4cf3-b0d1-a3570d6e6417")
+		)
+		(pin "11"
+			(uuid "9ffe6807-2d69-4c69-906c-509545b393b0")
+		)
+		(pin "12"
+			(uuid "9d845a55-19de-4b50-8d97-31c78e335f70")
+		)
+		(pin "2"
+			(uuid "edde7893-7579-4678-99cf-8a7ee16dd849")
+		)
+		(pin "10"
+			(uuid "1cb3a54f-33ed-4c1d-94a1-bd9d2e7a9d2f")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/47071d95-49a2-4249-b04b-15f4ec6160d8"
+					(reference "U24")
 					(unit 1)
 				)
 			)
