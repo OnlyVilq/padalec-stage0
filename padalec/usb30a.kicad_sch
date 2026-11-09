@@ -692,6 +692,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SD12C-01F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD12C-01F"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transient voltage suppressor thyrector transil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?323*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SD12C-01F_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SD12C-01F_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Filter:Choke_Schaffner_RN102-0.3-02-22M"
 			(pin_names
 				(hide yes)
@@ -2761,6 +2939,12 @@
 		(uuid "1379fc40-2820-4e3d-bfe9-ba85d9853191")
 	)
 	(junction
+		(at 54.61 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4f89df-20b8-40c6-a041-bb0cd3acf495")
+	)
+	(junction
 		(at 149.86 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2819,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "b63a1c77-8c33-4297-8cb3-b6cbda9661b6")
+	)
+	(wire
+		(pts
+			(xy 54.61 115.57) (xy 54.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e76ddc-797d-4ac6-a9a5-7dac8e2a7967")
 	)
 	(wire
 		(pts
@@ -2882,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 102.87) (xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b29e7b4-ae01-449a-865e-6533bd6b1e4f")
+	)
+	(wire
+		(pts
 			(xy 132.08 58.42) (xy 134.62 58.42)
 		)
 		(stroke
@@ -2932,7 +3136,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 102.87) (xy 44.45 102.87)
+			(xy 54.61 102.87) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df01212-a475-4137-8c73-e258b391ede2")
+	)
+	(wire
+		(pts
+			(xy 41.91 102.87) (xy 54.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2959,6 +3173,16 @@
 			(type default)
 		)
 		(uuid "7447fe50-f6d7-4048-9e6c-ccd276db3c6a")
+	)
+	(wire
+		(pts
+			(xy 41.91 115.57) (xy 41.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afc1b8a-e108-4b76-8810-865a666f1876")
 	)
 	(wire
 		(pts
@@ -3311,7 +3535,7 @@
 		(uuid "d987de7d-504f-4a7d-932e-085140492416")
 	)
 	(label "VBUS"
-		(at 44.45 102.87 0)
+		(at 57.15 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3429,11 +3653,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c0fa409-5f16-4c7e-a754-2d531ed3e4ce")
+			(uuid "16f209ae-1601-4993-8ab3-09d7287600ad")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "#PWR0119")
 					(unit 1)
 				)
@@ -3511,16 +3735,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d4609aa-2825-4966-9db7-94b281b16b0f")
+			(uuid "8b888b14-f746-49a2-af79-ad2006defd30")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD12C-01F")
+		(at 54.61 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47f02d81-bfda-4764-a037-7891f375b302")
+		(property "Reference" "D17"
+			(at 57.15 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0X1BL"
+			(at 57.15 110.4899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 59.69 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf"
+			(at 54.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "12V, 450W Discrete Bidirectional TVS Diode, SOD-323"
+			(at 54.61 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2f0865b-c8cc-4d18-89a0-d937aacd0a1e")
+		)
+		(pin "1"
+			(uuid "4f673181-c29e-4960-824a-4ef87714b50b")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -3592,20 +3903,20 @@
 			)
 		)
 		(pin "3"
-			(uuid "e7b56439-6770-4f8a-bf25-7baeb04384fc")
+			(uuid "d96809ba-00c3-4693-9fb2-9e758f51b1d2")
 		)
 		(pin "1"
-			(uuid "ca7f6bc3-c5c2-4bd6-8ede-966d320bfa9c")
+			(uuid "b8d55c4a-ccc3-4003-b6ed-54b09ff3ea83")
 		)
 		(pin "4"
-			(uuid "d5f1762b-fcdb-4db7-86f0-e7c74166b3f1")
+			(uuid "d9dd8d47-101c-47b9-8e9c-53badd5e9bed")
 		)
 		(pin "2"
-			(uuid "cc8b1474-c52f-4e3c-a3f2-48c1352270ce")
+			(uuid "6c82a9e5-253a-47ef-ab2b-f402d745d5c0")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "FL13")
 					(unit 1)
 				)
@@ -3682,38 +3993,38 @@
 			)
 		)
 		(pin "8"
-			(uuid "6928309e-5ca5-4fbc-96a0-01b0f8e9ab43")
+			(uuid "6c1023b3-32ee-45b8-9d3e-b6acbd7f0823")
 		)
 		(pin "7"
-			(uuid "e9074a06-cef0-4237-84d4-28a5d690688a")
+			(uuid "96516d76-0a5e-48cf-bf3f-331e2bbcaea3")
 		)
 		(pin "1"
-			(uuid "6043f9f0-9d57-4284-b6e5-12f754a75259")
+			(uuid "9ea59c5e-4934-4f7b-a752-d9e99daaf519")
 		)
 		(pin "3"
-			(uuid "a0acc2e8-c0ad-4d49-ab86-7def62f0d834")
+			(uuid "e0846b35-e96e-4588-bd8d-2fde1b920350")
 		)
 		(pin "2"
-			(uuid "6b6891bd-16cc-40b2-b7e6-ecc7248a5a37")
+			(uuid "096f50dc-121c-4e71-a1fe-8b84ad7b2e70")
 		)
 		(pin "5"
-			(uuid "5e084c62-2753-45d5-ba1b-30b816d62bbd")
+			(uuid "2d0b5559-0a0c-40c6-8d2b-68db5d021175")
 		)
 		(pin "4"
-			(uuid "16420058-6a82-42c8-b567-378e999af235")
+			(uuid "5c80d797-3ca2-476d-9d88-481520a31ecb")
 		)
 		(pin "SH"
-			(uuid "1f9beb5c-f70b-4f07-b620-7d66364dfb28")
+			(uuid "0eb6f207-1b7b-4afd-a39c-dddb7c741a0c")
 		)
 		(pin "9"
-			(uuid "444151c7-3ced-4924-bfca-1fb6161fbee9")
+			(uuid "c742a68c-5e40-4af8-a3ac-d84ad16c446a")
 		)
 		(pin "6"
-			(uuid "dbeb96fb-7815-4b01-8feb-9e597e5e2033")
+			(uuid "6004d0b4-3d29-4f63-b482-9275235ed858")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "J8")
 					(unit 1)
 				)
@@ -3726,7 +4037,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 110.49 0)
+		(at 41.91 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3737,7 +4048,7 @@
 		(fields_autoplaced yes)
 		(uuid "862ab291-68d6-4e95-8f93-3d71ebe3bb28")
 		(property "Reference" "#PWR0114"
-			(at 41.91 116.84 0)
+			(at 41.91 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +4059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 115.57 0)
+			(at 41.91 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3758,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 110.49 0)
+			(at 41.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +4080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 110.49 0)
+			(at 41.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 110.49 0)
+			(at 41.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,11 +4102,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "63d49ce4-918b-47eb-9568-ea884f4a2607")
+			(uuid "9e121f05-c773-48ad-ba3f-cae459a97a9a")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "#PWR0117")
 					(unit 1)
 				)
@@ -3875,55 +4186,137 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee8bee02-4f0e-4e62-9554-4f31d380ee5d")
+			(uuid "8ce32a8a-9859-469c-b4c9-d0806238f68a")
 		)
 		(pin "13"
-			(uuid "7bf8bd19-c56f-4f6e-9282-70d1c3d464a7")
+			(uuid "caa2dae8-8b12-4fbf-90b6-824a04b9d52b")
 		)
 		(pin "3"
-			(uuid "36fdaba9-b2d2-4cc1-94ed-5a2f9489b67e")
+			(uuid "912f850d-d98d-4c37-882f-ba154e883a8e")
 		)
 		(pin "14"
-			(uuid "98ee329f-c922-452e-9fbb-a37a091574f3")
+			(uuid "be604768-7871-4e0a-b03e-6eca5912b2f6")
 		)
 		(pin "7"
-			(uuid "0dafd0b5-5e8e-492a-8fcf-1045250680ff")
+			(uuid "bb32fc98-313a-4c6b-8373-98581847e7ad")
 		)
 		(pin "6"
-			(uuid "a3ceb6e5-b549-4f9f-b2af-6fc630513bd5")
+			(uuid "1c0d1a29-761c-4f41-a8ca-37a99273b76d")
 		)
 		(pin "9"
-			(uuid "a2a2b7f8-3af3-4050-a0a1-ad81f74554b9")
+			(uuid "f483f62b-5400-42e8-b48e-ee443b712b4e")
 		)
 		(pin "8"
-			(uuid "6ad12b99-a6f9-4287-aac6-4aec645595df")
+			(uuid "0545c8b6-0116-49b0-807b-488723bcee47")
 		)
 		(pin "5"
-			(uuid "28f8fe9a-5162-479e-a08f-d223297a72c0")
+			(uuid "5596cfa9-e5b8-483f-9eb8-9e4df3351837")
 		)
 		(pin "4"
-			(uuid "298a45a8-2747-437c-a995-8ddb3a0689b6")
+			(uuid "91fc9d06-0e5e-4e62-8afc-f493a091ae93")
 		)
 		(pin "11"
-			(uuid "9a621dd5-037c-456f-8dc4-690988c9527e")
+			(uuid "d86b874d-6dc3-4a37-a225-c8d8b628e905")
 		)
 		(pin "12"
-			(uuid "59e7512d-ca20-4a33-b94d-f31ee22fe9ac")
+			(uuid "fcd48c69-1c8b-4240-8023-615af353899c")
 		)
 		(pin "2"
-			(uuid "72617513-3dd5-4385-a924-32a7190ff8cc")
+			(uuid "a7af7523-c357-4b11-8d60-8c844fd3e24e")
 		)
 		(pin "10"
-			(uuid "40aaf4ec-9204-469d-beaf-76d0189f959b")
+			(uuid "e1ed1ead-402c-4507-8535-b2b1b8f6a3e6")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "U20")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f897da-8f97-4109-96da-ee149530f7bc")
+		(property "Reference" "#PWR0188"
+			(at 54.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66646859-65ba-4b3d-8633-98f700a2c4ef")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -3996,14 +4389,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a49004c3-3e92-400f-9f39-c574d8117668")
+			(uuid "4c2b4916-9a32-480a-93af-30f7760245f4")
 		)
 		(pin "1"
-			(uuid "9bef549d-e708-4f06-827f-9c667a1bdfb8")
+			(uuid "20db346d-3c46-4a15-9365-fada38aca344")
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/9c8d09cf-efc5-4693-8396-ea163b86e746"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
 					(reference "C100")
 					(unit 1)
 				)
