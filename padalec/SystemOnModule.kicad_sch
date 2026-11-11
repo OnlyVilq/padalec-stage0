@@ -12953,7 +12953,7 @@
 	)
 	(rectangle
 		(start 792.48 382.27)
-		(end 808.99 403.86)
+		(end 808.99 408.94)
 		(stroke
 			(width 0)
 			(type solid)
@@ -13327,6 +13327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72780395-fc15-42d7-881a-232993682974")
+	)
+	(junction
+		(at 786.13 397.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7405d424-3468-47b4-8581-ce5f47d76242")
 	)
 	(junction
 		(at 770.89 146.05)
@@ -13778,6 +13784,15 @@
 			(type default)
 		)
 		(uuid "2d94c48e-7903-40cb-81be-321bee3b501d")
+	)
+	(bus_entry
+		(at 815.34 410.21)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3f432d-c836-4bec-8366-38d7fbfbb05f")
 	)
 	(bus_entry
 		(at 439.42 374.65)
@@ -15656,6 +15671,16 @@
 	)
 	(wire
 		(pts
+			(xy 786.13 405.13) (xy 786.13 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62dfc193-ef62-4261-ab51-88454f901f0b")
+	)
+	(wire
+		(pts
 			(xy 332.74 163.83) (xy 341.63 163.83)
 		)
 		(stroke
@@ -16083,6 +16108,26 @@
 			(type default)
 		)
 		(uuid "808b5c12-b006-4dad-bc17-8bec568928bf")
+	)
+	(wire
+		(pts
+			(xy 311.15 435.61) (xy 316.23 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817d61d4-8b92-45b6-b855-6a96c254df9b")
+	)
+	(wire
+		(pts
+			(xy 784.86 407.67) (xy 812.8 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8192985f-c9ce-4e51-9959-9b32f6446ae7")
 	)
 	(wire
 		(pts
@@ -16943,6 +16988,16 @@
 			(type default)
 		)
 		(uuid "d119e55b-359b-4895-bb7b-931af427324a")
+	)
+	(wire
+		(pts
+			(xy 784.86 405.13) (xy 786.13 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d156a03f-21f8-4467-bd4c-46f0cc4c2b1d")
 	)
 	(bus
 		(pts
@@ -18844,6 +18899,16 @@
 		)
 		(uuid "a7e109d1-b695-40f4-b672-2377feaa78db")
 	)
+	(label "eDP_PWM"
+		(at 311.15 435.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa148aed-7754-4cf6-8038-74f466a30ddb")
+	)
 	(label "TYPEC1_OTG_DP "
 		(at 797.56 156.21 0)
 		(effects
@@ -19463,6 +19528,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff76e667-b21f-4adc-b1b5-5b9a137cfa0b")
+	)
+	(label "SD_0.DET"
+		(at 792.48 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffafc661-acfe-421b-9bd2-84864f9e0817")
 	)
 	(hierarchical_label "PCIE_A"
 		(shape bidirectional)
