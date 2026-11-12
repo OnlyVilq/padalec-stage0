@@ -3547,7 +3547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3627,7 +3627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -3709,7 +3709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3867,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3949,7 +3949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.98 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4030,7 +4030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4112,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4272,7 +4272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.14 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4354,7 +4354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4436,7 +4436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 209.55 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.2 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4836,7 +4836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 200.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5157,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5237,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5664,7 +5664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.2 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5746,7 +5746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.21 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5828,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 228.6 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6142,7 +6142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 21.59 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN36_6X6MC_MCH"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.98 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 90.17 0)
 			(hide yes)
 			(show_name no)

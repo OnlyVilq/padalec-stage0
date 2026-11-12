@@ -228,7 +228,7 @@
 			(pin input line
 				(at -6.35 -22.86 0)
 				(length 2.54)
-				(name "TX1_N"
+				(name "TX0_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			(pin input line
 				(at -6.35 -25.4 0)
 				(length 2.54)
-				(name "TX1_P"
+				(name "TX0_P"
 					(effects
 						(font
 							(size 1.27 1.27)

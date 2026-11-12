@@ -2159,15 +2159,15 @@
 		)
 		(uuid "0759b564-831e-4695-9254-5cd2e1d945ee")
 	)
-	(label "TXN"
-		(at 67.31 49.53 0)
+	(label "RXN"
+		(at 102.87 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "08ce23cc-bfa6-4aaf-8367-464aa241157c")
+		(uuid "09ffdd6f-e6e7-45a2-8d98-e0d23f5f6c95")
 	)
 	(label "3v3"
 		(at 55.88 173.99 0)
@@ -2179,26 +2179,6 @@
 		)
 		(uuid "0b1d9c5b-c928-4702-937a-071f80475774")
 	)
-	(label "RXN"
-		(at 67.31 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f29fa5c-9c08-4d09-b0dd-52aa4246cdd7")
-	)
-	(label "RXP"
-		(at 67.31 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "210047bb-b580-471e-bfb7-35a6c96e8c7c")
-	)
 	(label "~{W_DISABLE1}"
 		(at 48.26 134.62 0)
 		(effects
@@ -2208,6 +2188,16 @@
 			(justify left bottom)
 		)
 		(uuid "2ffa968c-8cea-423d-b658-630024e1fd0d")
+	)
+	(label "RXP"
+		(at 102.87 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bdfe043-3d8f-4e9d-94c2-b5f325b9f96a")
 	)
 	(label "D_N"
 		(at 99.06 72.39 180)
@@ -2269,6 +2259,16 @@
 		)
 		(uuid "80857de3-b4a0-45aa-a350-af19eb2c528a")
 	)
+	(label "TXP"
+		(at 102.87 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ce23a30-133e-4a60-9029-fb027aa05b4d")
+	)
 	(label "D_P"
 		(at 95.25 69.85 0)
 		(effects
@@ -2290,7 +2290,7 @@
 		(uuid "b53f8b70-cda4-45bd-abf0-440914de4e1c")
 	)
 	(label "CLKREQ#"
-		(at 67.31 39.37 0)
+		(at 102.87 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2298,16 +2298,6 @@
 			(justify left bottom)
 		)
 		(uuid "c2a2ec9a-e564-4f07-b678-8f528b5c5c92")
-	)
-	(label "TXP"
-		(at 67.31 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c72599e7-9277-4c29-b5b3-2a3304e517bf")
 	)
 	(label "{REFCLK}"
 		(at 50.8 115.57 0)
@@ -2320,7 +2310,7 @@
 		(uuid "d09a6622-97ce-45b6-bcee-ab0e65b95b87")
 	)
 	(label "WAKE#"
-		(at 67.31 41.91 0)
+		(at 102.87 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,6 +2339,16 @@
 		)
 		(uuid "e817ed31-1cc4-496a-a4d9-53b1cbcef181")
 	)
+	(label "TXN"
+		(at 102.87 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2aee430-0fe1-4906-8a11-38d7d0057539")
+	)
 	(label "{PCIE}"
 		(at 22.86 36.83 0)
 		(effects
@@ -2360,7 +2360,7 @@
 		(uuid "f6dee56b-3ebc-43cc-8478-dc0bb5bdcff4")
 	)
 	(label "PERST#"
-		(at 67.31 36.83 0)
+		(at 102.87 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "m2:AMPHENOL_MDT420E03001"
 			(at 139.7 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2750,7 +2750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2836,7 +2836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 38.1 129.54 0)
 			(hide yes)
 			(show_name no)

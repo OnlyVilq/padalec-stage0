@@ -5581,7 +5581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.854x1.854mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5860,7 +5860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 87.63 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6413,7 +6413,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6938,7 +6938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.854x1.854mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 149.86 177.8 0)
 			(hide yes)
 			(show_name no)

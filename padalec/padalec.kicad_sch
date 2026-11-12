@@ -15,6 +15,17 @@
 		)
 		(uuid "15ef0b6c-55cc-49c2-a8c6-c89c3b02e61e")
 	)
+	(text "STACKUP NA \nJLC04161H-3313"
+		(exclude_from_sim no)
+		(at 243.078 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 252 0 0 1)
+			)
+		)
+		(uuid "1dee540d-0969-42c6-b759-489486ec17ed")
+	)
 	(text "ToDo:\n[x]zasilanie zegara PCIe\n[x]Transil w usb c\n[x]podłączyć i posprzątać usb do SOM strony\n[x]posprzątać EDP\n[/]sklecić HDMI\n[x]dokończyć PCIe\n[x]transil na VBUS usb 3\n\n[x]audio\n[x]transil w SD\n[x]SD\n[x]eth\n\n[x]p_enable (zasilanie)\n[ ]p_good	(zasilanie)\n[ ]pcie_m disable?\n[ ]enable	(usb power switch)\n\n[ ]pmos w RTC\n[ ]eDP"
 		(exclude_from_sim no)
 		(at 235.712 38.608 0)
@@ -81,6 +92,16 @@
 			(justify left)
 		)
 		(uuid "e6020379-774e-4f45-ab7e-a4a07e108dd4")
+	)
+	(text "=== Projekt PCB ===\n- fprint pod eDP\n- fprinty pod USB"
+		(exclude_from_sim no)
+		(at 244.094 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6b681de-8102-48a6-99cd-667e4cbe515e")
 	)
 	(text "Digital?\nEvery itiot can count to 1.\n\n~~Bob Widlar"
 		(exclude_from_sim no)
@@ -192,6 +213,16 @@
 			(type default)
 		)
 		(uuid "32a86f4b-0ff7-4a74-8664-e8360d2b7712")
+	)
+	(bus
+		(pts
+			(xy 71.12 124.46) (xy 80.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32cfe02a-88af-4836-871f-552779493372")
 	)
 	(wire
 		(pts
@@ -1256,7 +1287,7 @@
 			)
 		)
 		(pin "eDP0" output
-			(at 86.36 154.94 270)
+			(at 80.01 124.46 180)
 			(uuid "862dbbb8-bc4f-4244-95d1-dd8f0dd1ea3a")
 			(effects
 				(font

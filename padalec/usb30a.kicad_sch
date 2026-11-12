@@ -3959,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 143.51 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4355,7 +4355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 107.95 0)
 			(hide yes)
 			(show_name no)

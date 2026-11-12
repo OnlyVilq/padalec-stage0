@@ -69,7 +69,18 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.1801,
+          "via_gap": 1.0,
+          "width": 0.1681
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -153,7 +164,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,6 +183,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -183,6 +195,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -194,6 +207,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,7 +217,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.2,
+        0.2042,
+        0.5,
+        6.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +251,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -513,6 +543,49 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.1999,
+        "diff_pair_width": 0.1191,
+        "name": "100ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1191,
+        "tuning_profile": "",
+        "via_diameter": 0.2,
+        "via_drill": 0.1
+      },
+      {
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.1999,
+        "diff_pair_width": 0.1717,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "85ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1717,
+        "tuning_profile": "",
+        "via_diameter": 0.2,
+        "via_drill": 0.1
+      },
+      {
+        "clearance": 0.1999,
+        "diff_pair_gap": 0.1999,
+        "diff_pair_width": 0.1537,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
+        "name": "90ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1537,
+        "tuning_profile": "",
+        "via_diameter": 0.2,
+        "via_drill": 0.1
       }
     ],
     "meta": {
@@ -520,7 +593,20 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "85ohm",
+        "pattern": "*Port*"
+      },
+      {
+        "netclass": "90ohm",
+        "pattern": "*USB*"
+      },
+      {
+        "netclass": "100ohm",
+        "pattern": "*eDP*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -944,12 +1030,12 @@
       "M2_M_x1"
     ],
     [
-      "62d5f724-3bfb-48fb-8618-df00dbf2176a",
-      "M2_E_x1"
-    ],
-    [
       "b98df186-20eb-48ad-81da-d4401c557eb4",
       "M2_M_x2"
+    ],
+    [
+      "62d5f724-3bfb-48fb-8618-df00dbf2176a",
+      "M2_E_x1"
     ],
     [
       "d259f574-ded1-4a84-9e4f-740ef0accc7f",

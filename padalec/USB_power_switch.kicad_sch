@@ -1793,7 +1793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +1991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Bel_SI-60062-F"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2241,7 +2241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2327,7 +2327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Bel_SI-60062-F"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2740,7 +2740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Bel_SI-60062-F"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2908,7 +2908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2994,7 +2994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Bel_SI-60062-F"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 102.87 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3247,7 +3247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)

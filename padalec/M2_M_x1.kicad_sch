@@ -2169,16 +2169,6 @@
 		)
 		(uuid "fead3ef0-be8e-428d-9809-94dca71bbcb1")
 	)
-	(label "TXN"
-		(at 142.24 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "006e3d9d-a2a7-4e32-a59d-861a7dfafc52")
-	)
 	(label "PERST#"
 		(at 142.24 36.83 0)
 		(effects
@@ -2188,6 +2178,16 @@
 			(justify left bottom)
 		)
 		(uuid "077ac496-82b8-46ac-82df-6f06b5ae2bdd")
+	)
+	(label "TXN"
+		(at 142.24 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12815498-6198-45e6-a15e-afdf7cd9370f")
 	)
 	(label "WAKE#"
 		(at 142.24 41.91 0)
@@ -2219,6 +2219,16 @@
 		)
 		(uuid "59715fea-d1e3-4ab0-8949-a20a3c9667e4")
 	)
+	(label "RXN"
+		(at 142.24 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7378ce6e-7d97-4d85-9895-5f7a9f2866a0")
+	)
 	(label "PCIE_A_N"
 		(at 142.24 118.11 0)
 		(effects
@@ -2228,16 +2238,6 @@
 			(justify left bottom)
 		)
 		(uuid "ad13a29c-8e4a-4c5d-86e7-b4ffa894cbf2")
-	)
-	(label "RXP"
-		(at 142.24 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae7fefec-c30e-4378-aec2-4e17e908d414")
 	)
 	(label "3v3"
 		(at 234.95 69.85 0)
@@ -2259,25 +2259,15 @@
 		)
 		(uuid "eaed2ca8-dbea-4975-abf2-e1416d671f31")
 	)
-	(label "RXN"
-		(at 142.24 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec6cdb68-ac62-4d74-9c94-fd433f128dbe")
-	)
 	(label "TXP"
-		(at 142.24 46.99 0)
+		(at 142.24 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "efc19dcb-27a0-441b-88dc-9a6559f45c3a")
+		(uuid "faf957aa-5e47-4845-aa3e-b1277b340835")
 	)
 	(label "{PCIE}"
 		(at 116.84 17.78 0)
@@ -2288,6 +2278,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc300469-7890-4076-83b7-b50767c15318")
+	)
+	(label "RXP"
+		(at 142.24 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe03db61-625f-44ac-8c76-ee458e36e2d4")
 	)
 	(hierarchical_label "3v3"
 		(shape input)
@@ -2453,7 +2453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "m2:AMPHENOL_MDT420M03001"
 			(at 207.01 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2816,7 +2816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.95 74.93 0)
 			(hide yes)
 			(show_name no)

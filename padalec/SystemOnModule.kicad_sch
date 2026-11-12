@@ -19760,7 +19760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37bc2a41-c71b-45f2-9a55-3496cb8af8bf")
-		(property "Reference" "con2"
+		(property "Reference" "J1"
 			(at 322.58 314.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19780,7 +19780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cm3588:CM3588"
 			(at 322.58 382.27 0)
 			(hide yes)
 			(show_name no)
@@ -21016,7 +21016,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "con2")
+					(reference "J1")
 					(unit 3)
 				)
 			)
@@ -21212,7 +21212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 427.99 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -21534,7 +21534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cm3588:CM3588"
 			(at 778.51 382.27 0)
 			(hide yes)
 			(show_name no)
@@ -22888,7 +22888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 433.07 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -23280,7 +23280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cm3588:CM3588"
 			(at 326.39 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -24632,7 +24632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "cm3588:CM3588"
 			(at 778.51 97.79 0)
 			(hide yes)
 			(show_name no)

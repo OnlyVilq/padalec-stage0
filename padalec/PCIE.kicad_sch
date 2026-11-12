@@ -15,6 +15,16 @@
 		)
 		(uuid "bd0786be-e9e2-4757-ab89-ad5c9c6bc784")
 	)
+	(text "ZAMIANA KOLEJNOŚCI PAR RÓŻNICOWYCH\nze względu na burdel na PCB (via w PCIE = be)"
+		(exclude_from_sim no)
+		(at 78.74 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1c70e48-4191-4f84-8e9c-d7578e874217")
+	)
 	(bus_entry
 		(at 66.04 39.37)
 		(size -2.54 -2.54)
@@ -1508,7 +1518,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
-					(page "16")
+					(page "17")
 				)
 			)
 		)
@@ -1660,7 +1670,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8"
-					(page "17")
+					(page "16")
 				)
 			)
 		)

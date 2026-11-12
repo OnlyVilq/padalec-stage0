@@ -1404,7 +1404,7 @@
 				(pin input line
 					(at -6.35 -22.86 0)
 					(length 2.54)
-					(name "TX1_N"
+					(name "TX0_N"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 				(pin input line
 					(at -6.35 -25.4 0)
 					(length 2.54)
-					(name "TX1_P"
+					(name "TX0_P"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3491,7 +3491,7 @@
 		)
 		(uuid "1cc259ae-c9ac-47f4-b39e-059cfed55e76")
 	)
-	(label "eDP.TX1_P"
+	(label "eDP.TX0_P"
 		(at 240.03 40.64 180)
 		(effects
 			(font
@@ -3561,7 +3561,7 @@
 		)
 		(uuid "5d9412c4-ed1d-47cb-b4fb-f46d82967ad0")
 	)
-	(label "eDP.TX1_N"
+	(label "eDP.TX0_N"
 		(at 240.03 38.1 180)
 		(effects
 			(font
@@ -3714,7 +3714,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 40.64 81.28 0)
+		(at 40.64 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3725,7 +3725,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ba50402-8e26-4f9c-8b19-c4eb402cdf57")
 		(property "Reference" "#PWR0196"
-			(at 40.64 85.09 0)
+			(at 40.64 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3736,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 40.64 76.2 0)
+			(at 40.64 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3746,7 +3746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 81.28 0)
+			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 81.28 0)
+			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 40.64 81.28 0)
+			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +4110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4348,7 +4348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4508,7 +4508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11029_1x29-1MP_P0.5mm_Horizontal"
 			(at 254 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -4948,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5027,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.26 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +5108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 20.32 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.58 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 92.71 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5508,7 +5508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5590,7 +5590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 81.28 27.94 0)
 			(hide yes)
 			(show_name no)
