@@ -5451,6 +5451,16 @@
 		)
 		(uuid "1d376aee-ada4-4857-9fd4-e08d17b06647")
 	)
+	(text "Czy tutaj nie ma błędu??"
+		(exclude_from_sim no)
+		(at 153.67 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28ca75a0-4d46-4764-a06b-50e0f2ea7b80")
+	)
 	(text "Battery gauge\nMAX17215"
 		(exclude_from_sim no)
 		(at 226.568 160.528 0)
