@@ -1,5 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "cm3588") (type "KiCad") (uri "${KIPRJMOD}/rk3588/cm3588.pretty") (options "") (descr ""))
-	(lib (name "m2_socket") (type "KiCad") (uri "${KIPRJMOD}/Libs/m2/m2_socket.pretty") (options "") (descr ""))
-)
