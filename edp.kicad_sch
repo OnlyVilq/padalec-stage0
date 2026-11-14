@@ -2270,7 +2270,7 @@
 	)
 	(text "ToDO\n[ ]dokończyć i sprawdzić zasilanie\n[ ]porcedura startu\n[ ]linie sterujące do SOM\n\n!!!!!\n[ ]złącze"
 		(exclude_from_sim no)
-		(at 134.5359 113.0285 0)
+		(at 140.208 60.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -53,6 +53,15 @@
 		(uuid "3a05fc4c-7d8e-42cf-8ef9-fc2890c6fa91")
 	)
 	(bus_entry
+		(at 101.6 128.27)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7c9f4f-2b70-4083-9ee2-42698aa5c890")
+	)
+	(bus_entry
 		(at 66.04 66.04)
 		(size -2.54 -2.54)
 		(stroke
@@ -60,6 +69,24 @@
 			(type default)
 		)
 		(uuid "56ab064b-726a-4745-a714-bf96bacb58fc")
+	)
+	(bus_entry
+		(at 101.6 104.14)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4921b9-0711-4f37-8b31-fc3c426ab052")
+	)
+	(bus_entry
+		(at 101.6 101.6)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec2b35d-b9e8-445f-821a-81c508d2b027")
 	)
 	(bus_entry
 		(at 66.04 26.67)
@@ -114,6 +141,15 @@
 			(type default)
 		)
 		(uuid "c2f3cb7e-fcab-4f0a-b99d-f9a125b3eedc")
+	)
+	(bus_entry
+		(at 101.6 130.81)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e8e6c5-0d58-47ac-bce3-2d0d33992572")
 	)
 	(bus_entry
 		(at 66.04 29.21)
@@ -295,6 +331,26 @@
 	)
 	(bus
 		(pts
+			(xy 101.6 99.06) (xy 101.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bc305d-1484-4503-9e4c-0cfb634ac3a6")
+	)
+	(bus
+		(pts
+			(xy 101.6 130.81) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b76963d-8838-46df-ae1c-9f84ce32b2f1")
+	)
+	(bus
+		(pts
 			(xy 187.96 30.48) (xy 190.5 27.94)
 		)
 		(stroke
@@ -372,6 +428,16 @@
 			(type default)
 		)
 		(uuid "464cfacf-00e1-4fd1-9220-e7d1b59189d6")
+	)
+	(bus
+		(pts
+			(xy 81.28 133.35) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd74885-c46b-4648-b6f8-743597f16e90")
 	)
 	(bus
 		(pts
@@ -573,6 +639,16 @@
 		)
 		(uuid "9be488f6-eee5-48b4-a9f6-e45b539e0c5c")
 	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f463da1-3e0c-4700-b586-151cf290527f")
+	)
 	(bus
 		(pts
 			(xy 68.58 24.13) (xy 81.28 24.13)
@@ -763,6 +839,16 @@
 		)
 		(uuid "d722b5cb-3c00-47cc-927d-e49d1d9ece0d")
 	)
+	(wire
+		(pts
+			(xy 104.14 128.27) (xy 140.97 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09b405f-0bc8-4d0b-8885-381e7f52d9e2")
+	)
 	(bus
 		(pts
 			(xy 187.96 57.15) (xy 187.96 59.69)
@@ -802,6 +888,26 @@
 			(type default)
 		)
 		(uuid "ec17c98b-31f5-4c99-bfe8-69c85ef82d07")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee13d507-f57d-4491-8e78-493611d65992")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec59173-7310-4dfc-b510-26db4ecb33b9")
 	)
 	(bus
 		(pts
@@ -873,6 +979,16 @@
 		)
 		(uuid "079a7c8b-b8de-4ef5-b4e2-64e2ef0e7fc5")
 	)
+	(label "~{Disable2}"
+		(at 132.08 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09d41cf7-1730-46a5-b499-8a85f9c9754c")
+	)
 	(label "PICE_A{REFCLK}"
 		(at 81.28 24.13 180)
 		(effects
@@ -943,6 +1059,16 @@
 		)
 		(uuid "4c51ed6e-440a-4376-a6a8-47523e5ec6c4")
 	)
+	(label "~{Disable1}"
+		(at 132.08 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "538d9779-2a2e-4b83-ae36-7aea17c58ae9")
+	)
 	(label "Port_1.REFCLK_N"
 		(at 46.99 57.15 0)
 		(effects
@@ -962,6 +1088,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ee3c577-76b2-4ce1-9edb-e9d906d4fc8f")
+	)
+	(label "~{Disable4}"
+		(at 132.08 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74fd9b6c-fa0f-468f-b2af-b6734492ef20")
 	)
 	(label "PICE_C{REFCLK}"
 		(at 81.28 60.96 180)
@@ -992,6 +1128,16 @@
 			(justify left bottom)
 		)
 		(uuid "8fa40a1e-835d-4122-b32e-f3bbab6ad2c4")
+	)
+	(label "~{Disable3}"
+		(at 132.08 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fb4d320-2b81-4014-bf29-56f324fd3f5f")
 	)
 	(label "PICE_A{REFCLK}"
 		(at 203.2 27.94 180)
@@ -1032,6 +1178,16 @@
 			(justify right bottom)
 		)
 		(uuid "aea6a7c2-df2e-415e-8b20-351fee20a145")
+	)
+	(label "{PCIe_Disable}"
+		(at 96.52 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1829cdb-c601-4a14-acff-b552ce0abf86")
 	)
 	(label "Port_1{REFCLK}"
 		(at 81.28 54.61 180)
@@ -1083,6 +1239,17 @@
 			(justify right)
 		)
 		(uuid "0c0a74e8-a65a-46e4-a78e-b03690bb2081")
+	)
+	(hierarchical_label "PCIe_Disable"
+		(shape input)
+		(at 81.28 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1725360e-0de7-40a4-b88d-78858cb19b97")
 	)
 	(hierarchical_label "3v3_PCIE_B"
 		(shape input)

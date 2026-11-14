@@ -36,16 +36,8 @@
 		(uuid "d6cd3813-f233-45a7-aee4-ca4a492ff2e6")
 	)
 	(no_connect
-		(at 46.99 39.37)
-		(uuid "23d63609-0e9e-4161-b388-b53740c6432f")
-	)
-	(no_connect
 		(at 74.676 39.37)
 		(uuid "95058349-d294-49ad-acf8-0d7851df333c")
-	)
-	(no_connect
-		(at 46.99 45.72)
-		(uuid "b7df1a5b-d5c8-4cbf-a6a5-8e6814b59742")
 	)
 	(bus_entry
 		(at 26.67 64.77)
@@ -572,17 +564,6 @@
 		)
 		(uuid "0d368d95-63d9-41e3-8905-fc2175db38ec")
 	)
-	(hierarchical_label "PowerSwitch"
-		(shape bidirectional)
-		(at 6.35 21.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "162f47b2-995b-4a49-a028-45bc1f5e4e62")
-	)
 	(hierarchical_label "USB3_host_0"
 		(shape bidirectional)
 		(at 111.76 44.45 180)
@@ -593,6 +574,17 @@
 			(justify right)
 		)
 		(uuid "273aed9b-0145-4931-a699-f31408169fed")
+	)
+	(hierarchical_label "PowerSwitch"
+		(shape bidirectional)
+		(at 6.35 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2faaeb79-1e66-4e73-9cf0-a8272845b936")
 	)
 	(hierarchical_label "USBC_host_0"
 		(shape bidirectional)
