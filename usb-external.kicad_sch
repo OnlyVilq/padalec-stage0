@@ -637,7 +637,7 @@
 		)
 		(pin "5v5_in" input
 			(at 144.78 22.86 180)
-			(uuid "816272cb-684d-4fa5-90e5-78635b6b1bae")
+			(uuid "3c5ce335-20e2-4d7f-92ad-dabc97f49890")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +647,7 @@
 		)
 		(pin "USB BUS" bidirectional
 			(at 144.78 26.67 180)
-			(uuid "06f75bb9-f1a7-474a-a141-05c9d11a853d")
+			(uuid "ce856117-e334-48d7-8de2-0de78920d1f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,8 +657,8 @@
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5"
-					(page "21")
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727"
+					(page "19")
 				)
 			)
 		)
@@ -703,7 +703,7 @@
 		)
 		(pin "5v5_out_1" output
 			(at 74.676 36.83 0)
-			(uuid "4d3dafb6-5138-4620-91b9-913160f7b3f3")
+			(uuid "d99b0028-0695-42ea-b9a5-633af120da35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +713,7 @@
 		)
 		(pin "5v5_out_2" output
 			(at 74.676 39.37 0)
-			(uuid "97fc7cd2-a3be-41b0-b228-d600d8d26100")
+			(uuid "00d5fd4b-2cea-418c-97d4-3c2bcc2dd835")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +723,7 @@
 		)
 		(pin "EN 1" input
 			(at 46.99 36.83 180)
-			(uuid "e45dbb51-c7a8-487f-801e-fb545005d8fc")
+			(uuid "c71de989-a4a6-4c49-aa0d-63380bd549ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +733,7 @@
 		)
 		(pin "EN 2" input
 			(at 46.99 39.37 180)
-			(uuid "773d877c-bab3-4352-8cee-6156057ebe2b")
+			(uuid "b98a7026-7beb-4b18-b07e-adad68400c14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +743,7 @@
 		)
 		(pin "~{Fault 1}" output
 			(at 46.99 43.18 180)
-			(uuid "01af0fc2-7009-4da7-a946-5319b21f2657")
+			(uuid "7ca4a97e-c58f-46ec-a0e9-e3ec37178bc7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +753,7 @@
 		)
 		(pin "~{Fault 2}" output
 			(at 46.99 45.72 180)
-			(uuid "ae45f400-3ae5-4abc-ab86-5053b2920b0b")
+			(uuid "1831d404-1cfd-4330-8ab9-7c24c421083f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,8 +763,8 @@
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5"
-					(page "19")
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727"
+					(page "22")
 				)
 			)
 		)
@@ -809,7 +809,7 @@
 		)
 		(pin "5v5_out_1" output
 			(at 74.93 59.69 0)
-			(uuid "e334cdce-0b18-4276-b329-0f59eb85f8ad")
+			(uuid "9c10faaa-698c-4ad9-87c1-082a332bb2f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +819,7 @@
 		)
 		(pin "5v5_out_2" output
 			(at 74.93 62.23 0)
-			(uuid "f086be69-39d5-4366-bd2f-dcdab742c992")
+			(uuid "5e6bf1cd-ff21-4cd1-ba2d-5da62372462d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +829,7 @@
 		)
 		(pin "EN 1" input
 			(at 46.99 59.69 180)
-			(uuid "7ba2974b-9c10-457d-b862-e80ad1c5a80a")
+			(uuid "ecb66fb5-aa05-4c95-b52c-415ab50dfc4c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +839,7 @@
 		)
 		(pin "EN 2" input
 			(at 46.99 62.23 180)
-			(uuid "7047a076-be8c-41b2-b52f-10ef31daa554")
+			(uuid "24c21e28-4eec-43be-a482-80c2933f7279")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +849,7 @@
 		)
 		(pin "~{Fault 1}" output
 			(at 46.99 66.04 180)
-			(uuid "72696d7a-ef66-4d90-ad2c-e426973097c6")
+			(uuid "e33a1a14-8944-47d6-b00f-6e4c36090004")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +859,7 @@
 		)
 		(pin "~{Fault 2}" output
 			(at 46.99 68.58 180)
-			(uuid "3ec48b2b-525f-4f7c-a079-9a9e29457493")
+			(uuid "12380522-a46c-4e91-8c44-dc5e8d0bf8d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,8 +869,8 @@
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5"
-					(page "20")
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727"
+					(page "23")
 				)
 			)
 		)
@@ -915,7 +915,7 @@
 		)
 		(pin "5v5_in" input
 			(at 144.78 82.55 180)
-			(uuid "84afab6f-823c-45e2-a7a5-0e335d967747")
+			(uuid "04128299-46f7-42ee-bda3-7b391ea5422e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +925,7 @@
 		)
 		(pin "USB BUS" bidirectional
 			(at 144.78 86.36 180)
-			(uuid "79fbd01f-d6b5-4e3a-a19f-1d9d0ce11536")
+			(uuid "5c5de4ea-9d84-4c76-955e-d2c5ed38926d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,8 +935,8 @@
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5"
-					(page "23")
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727"
+					(page "21")
 				)
 			)
 		)
@@ -981,7 +981,7 @@
 		)
 		(pin "5v5_in" input
 			(at 144.78 48.26 180)
-			(uuid "77f3cd8b-de12-4684-a2bb-a098e135766a")
+			(uuid "7b162a63-0a8b-4bb1-90d6-1beaec892b10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 		)
 		(pin "USB BUS" bidirectional
 			(at 144.78 52.07 180)
-			(uuid "9d31a4f3-4551-4afc-b7c9-4a4cf7a9e85e")
+			(uuid "7adb5968-0f6e-4b5e-8640-1b7a7cfac66c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,8 +1001,8 @@
 		)
 		(instances
 			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/7da7b837-1872-4a4c-88ce-e2997f969bb5"
-					(page "22")
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727"
+					(page "20")
 				)
 			)
 		)

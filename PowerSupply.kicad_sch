@@ -5566,7 +5566,7 @@
 	)
 	(text "27k 1%"
 		(exclude_from_sim no)
-		(at 37.338 144.78 0)
+		(at 28.702 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5616,7 +5616,7 @@
 	)
 	(text "SCRAM\nbrutalne odcięcie zasilania\nna całej linii VBUS"
 		(exclude_from_sim no)
-		(at 40.64 132.334 0)
+		(at 46.736 118.872 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6206,16 +6206,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 77.47) (xy 88.9 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05af7051-2d8e-4767-9f60-120fcddb7f9c")
-	)
-	(wire
-		(pts
 			(xy 111.76 52.07) (xy 113.03 52.07)
 		)
 		(stroke
@@ -6473,6 +6463,16 @@
 			(type default)
 		)
 		(uuid "1db7202e-c496-46dd-ad34-ade617bab8ea")
+	)
+	(wire
+		(pts
+			(xy 45.72 137.16) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db99873-bebe-471c-b283-f07628a0559d")
 	)
 	(wire
 		(pts
@@ -6886,16 +6886,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 74.93) (xy 49.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e9a0c0-3e1e-4c68-b327-bc2bed6d0826")
-	)
-	(wire
-		(pts
 			(xy 128.27 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -7026,6 +7016,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 144.78) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e82787-a7d4-4c88-b8e9-c8b6d298f168")
+	)
+	(wire
+		(pts
 			(xy 95.25 247.65) (xy 97.79 247.65)
 		)
 		(stroke
@@ -7063,16 +7063,6 @@
 			(type default)
 		)
 		(uuid "5c9f1315-0b1f-4278-9e4b-c58632d310ae")
-	)
-	(wire
-		(pts
-			(xy 54.61 77.47) (xy 71.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8931ee-7f5c-4b96-aa5a-2361c5e2128e")
 	)
 	(wire
 		(pts
@@ -7596,6 +7586,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 77.47) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954a7a9f-2857-4832-8825-c56b7b82e270")
+	)
+	(wire
+		(pts
 			(xy 19.05 44.45) (xy 21.59 44.45)
 		)
 		(stroke
@@ -7846,6 +7846,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 147.32) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04104ba-d0a5-4ed3-a167-1eef4d835e24")
+	)
+	(wire
+		(pts
 			(xy 118.11 238.76) (xy 121.92 238.76)
 		)
 		(stroke
@@ -8006,6 +8016,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 77.47) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a18613-cb9e-462d-9b5a-648a34f93230")
+	)
+	(wire
+		(pts
 			(xy 109.22 52.07) (xy 111.76 52.07)
 		)
 		(stroke
@@ -8123,6 +8143,16 @@
 			(type default)
 		)
 		(uuid "cab4e4bd-11e6-4858-9658-dddab07a6f5f")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc9c931-544c-40ba-b072-9e609cd0c91c")
 	)
 	(wire
 		(pts
@@ -8824,6 +8854,16 @@
 		)
 		(uuid "0d29602b-d7d6-4042-a5a7-3d08352b20c6")
 	)
+	(label "~{INT}"
+		(at 43.18 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "151da3c4-6a60-4889-b183-1add679c3a61")
+	)
 	(label "PCIEP.3V3_A"
 		(at 95.25 241.3 180)
 		(effects
@@ -9274,6 +9314,16 @@
 		)
 		(uuid "ca58a317-2919-49a1-b9dc-dc57deb0f0e4")
 	)
+	(label "~{INT}"
+		(at 86.36 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca998834-030f-45f2-bc99-ccf5e12bf112")
+	)
 	(label "VC0"
 		(at 312.42 139.7 180)
 		(effects
@@ -9425,12 +9475,12 @@
 		(uuid "f2a85296-0bbe-4776-8ee1-7e1b3a70e43f")
 	)
 	(label "~{INT}"
-		(at 68.58 77.47 180)
+		(at 57.15 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f449c96a-e6bf-48a0-9606-7689c8fe88b4")
 	)
@@ -10509,7 +10559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 175.26 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11347,7 +11397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 113.03 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12773,6 +12823,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6927b710-37a8-4d50-a6d4-df6342e2a176")
+		(property "Reference" "R163"
+			(at 48.26 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27k"
+			(at 48.26 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 45.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c444826f-6a45-46d2-913c-568353b72e65")
+		)
+		(pin "2"
+			(uuid "e84c75f3-8fb5-453d-a915-34ceafe135b6")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_Small_2")
 		(lib_id "Device:C_Small")
 		(at 54.61 44.45 0)
@@ -13450,6 +13582,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7739d17c-4019-41bd-ae12-15ed19c97022")
+		(property "Reference" "TP7"
+			(at 34.798 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PowerEN"
+			(at 34.798 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c777bd92-1c09-4d68-87c9-fffafe59691b")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 135.89 0)
 		(unit 1)
@@ -13559,7 +13768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 60.96 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -13764,6 +13973,84 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 45.72 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88c3542b-3a79-43ee-b9ed-d6ca25e1b945")
+		(property "Reference" "#PWR0212"
+			(at 45.72 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9938e1b4-2f2e-4780-8154-9f6648ba74bc")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -15676,7 +15963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 113.03 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16074,7 +16361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 175.26 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16152,7 +16439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 60.96 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17001,85 +17288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8c6a924-1805-4c09-87c3-d89a4ec48edf")
-		(property "Reference" "R147"
-			(at 73.66 79.756 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 73.66 82.296 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72d47b00-7b0d-493f-8e89-9a045e9f8e76")
-		)
-		(pin "2"
-			(uuid "a2e23c9b-3e76-4666-90fc-610de34a416d")
-		)
-		(instances
-			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
-					(reference "R147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_Small_4")
 		(lib_id "Device:C_Small")
 		(at 312.42 124.46 0)
@@ -17678,7 +17886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RQM0029A_VQFN-29_4x4mm_P0.4mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 99.06 132.334 0)
 			(hide yes)
 			(show_name no)
