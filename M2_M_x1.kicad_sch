@@ -2334,7 +2334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4641504e-11cb-4345-b6d0-f2af39bfc61a")
-		(property "Reference" "D4"
+		(property "Reference" "D8"
 			(at 238.76 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,7 +2356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 234.95 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2409,11 +2409,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/6c64c48f-9ad6-4c49-b653-ef2d4b96d450"
-					(reference "D4")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/b98df186-20eb-48ad-81da-d4401c557eb4"
-					(reference "D5")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2694,7 +2694,7 @@
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/b98df186-20eb-48ad-81da-d4401c557eb4"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2712,7 +2712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84165057-2d07-4036-8e43-65df966165c6")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0111"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2772,11 +2772,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/6c64c48f-9ad6-4c49-b653-ef2d4b96d450"
-					(reference "#PWR086")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/b98df186-20eb-48ad-81da-d4401c557eb4"
-					(reference "#PWR088")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2794,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc7e0e7-ac24-49a0-9a29-4691cdb88388")
-		(property "Reference" "R80"
+		(property "Reference" "R93"
 			(at 237.49 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,11 +2858,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/6c64c48f-9ad6-4c49-b653-ef2d4b96d450"
-					(reference "R80")
+					(reference "R93")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/dce9a271-0f92-4393-a60c-ef925687bed8/b98df186-20eb-48ad-81da-d4401c557eb4"
-					(reference "R83")
+					(reference "R94")
 					(unit 1)
 				)
 			)

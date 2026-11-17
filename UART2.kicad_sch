@@ -1043,7 +1043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08642179-d663-45ba-95be-4fc82b9a1c64")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR052"
 			(at 113.03 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1103,7 +1103,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "#PWR0184")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1121,7 +1121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ddc4a3-3bb8-4efc-8da4-c59ef55cebdd")
-		(property "Reference" "R37"
+		(property "Reference" "R44"
 			(at 93.98 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1183,7 +1183,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "R37")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1201,7 +1201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70a6634-7c84-47c4-996e-c54344cd65e1")
-		(property "Reference" "R36"
+		(property "Reference" "R43"
 			(at 93.98 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1263,7 +1263,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "R36")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b300fc03-1fc9-4b40-80f4-2002ab539ce9")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR051"
 			(at 113.03 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1426,7 +1426,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "#PWR0185")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53a26b0-060b-4f8e-9909-4e9b2d5f5b13")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 115.57 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,7 +1509,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -1527,7 +1527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19f309d-0ac5-4238-8838-d2c5f43e599f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR053"
 			(at 166.37 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1587,7 +1587,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "#PWR040")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebc8736c-dde9-4e4f-8748-ea9b026fc054")
-		(property "Reference" "R38"
+		(property "Reference" "R45"
 			(at 101.6 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,7 +1669,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "R38")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -1687,7 +1687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8c1135-7013-41c5-b2ee-e69cf4059bec")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR050"
 			(at 99.06 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1747,7 +1747,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "#PWR0190")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1765,7 +1765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f951dce2-4b60-4d78-bf2a-f6bda5ffb498")
-		(property "Reference" "D12"
+		(property "Reference" "D6"
 			(at 115.57 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +1830,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/a5735413-a322-49ab-a9e1-37a1bb9eed3b"
-					(reference "D12")
+					(reference "D6")
 					(unit 1)
 				)
 			)

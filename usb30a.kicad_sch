@@ -3026,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 41.91) (xy 121.92 41.91)
+			(xy 129.54 41.91) (xy 133.35 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3043,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "209ffb89-4b33-4171-bcde-7f3f9b7f9baf")
-	)
-	(wire
-		(pts
-			(xy 132.08 46.99) (xy 133.35 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a51577-fb96-4deb-bed0-b50534388b8f")
 	)
 	(bus
 		(pts
@@ -3286,16 +3276,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 41.91) (xy 133.35 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0a58038-6154-4f83-9997-fb79c3e4948e")
-	)
-	(wire
-		(pts
 			(xy 132.08 53.34) (xy 134.62 53.34)
 		)
 		(stroke
@@ -3346,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 46.99) (xy 121.92 46.99)
+			(xy 129.54 46.99) (xy 133.35 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3354,25 +3334,15 @@
 		)
 		(uuid "faeae8af-5c27-4ed1-a673-e8e69e39b2cc")
 	)
-	(label "SSRX_P"
-		(at 92.71 49.53 0)
+	(label "SSTX_P"
+		(at 62.23 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "18db5ff6-00e9-4384-b9e9-a33fc976c65c")
-	)
-	(label "SSRX_N"
-		(at 62.23 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bb613e6-4ed3-463e-83f3-205c456f5ed0")
+		(uuid "006c6951-1caf-417d-a2e8-cb4049d3cc84")
 	)
 	(label "SSRX_P"
 		(at 132.08 53.34 180)
@@ -3385,17 +3355,17 @@
 		(uuid "3f409da7-c3ec-411e-a37c-277a9d2dc048")
 	)
 	(label "SSRX_N"
-		(at 92.71 54.61 0)
+		(at 62.23 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "450bf649-8acf-44c4-9eb1-e2eaf739d51d")
+		(uuid "47b07961-580f-480b-9b97-d8972016328e")
 	)
 	(label "D_P"
-		(at 119.38 46.99 180)
+		(at 129.54 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3415,7 +3385,7 @@
 		(uuid "4d77f988-859e-4308-96c1-bf9c5ed6eeb5")
 	)
 	(label "D_N"
-		(at 119.38 41.91 180)
+		(at 129.54 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3424,17 +3394,27 @@
 		)
 		(uuid "50f04d15-3a12-45e9-8e50-d0dc059406b0")
 	)
-	(label "D_N"
-		(at 92.71 44.45 0)
+	(label "SSTX_N"
+		(at 62.23 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5e220d8d-2cb4-4588-bb1f-691f98b16c5b")
+		(uuid "6c8dd29c-caea-400c-a070-418f20232a7b")
 	)
-	(label "D_N"
+	(label "SSRX_P"
+		(at 62.23 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc9fae8-be9b-4fac-9540-b6ee0242a22c")
+	)
+	(label "D_P"
 		(at 62.23 44.45 0)
 		(effects
 			(font
@@ -3442,27 +3422,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6381f089-794a-449a-99b8-9d3fef477cdc")
-	)
-	(label "SSTX_N"
-		(at 62.23 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "719b4f4c-660b-4009-a29f-1d073dec1fb1")
-	)
-	(label "SSRX_P"
-		(at 62.23 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a6b41ed-0f1b-4b17-bcf2-f73306be3f51")
+		(uuid "77bc0a98-03e1-4970-9566-809e33e78667")
 	)
 	(label "SSRX_N"
 		(at 132.08 50.8 180)
@@ -3474,17 +3434,7 @@
 		)
 		(uuid "a18b8851-5928-4600-b2bb-5d3c5c5503c8")
 	)
-	(label "SSTX_N"
-		(at 92.71 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aeb37246-5f51-4f7c-b915-88c4b245c949")
-	)
-	(label "D_P"
+	(label "D_N"
 		(at 62.23 39.37 0)
 		(effects
 			(font
@@ -3492,27 +3442,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b407f481-4d57-49a5-b3ab-56e3828ca6f1")
-	)
-	(label "D_P"
-		(at 92.71 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7067a9c-cea6-439a-ba32-55ba487a1418")
-	)
-	(label "SSTX_P"
-		(at 92.71 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4eefaaa-598b-4505-8c72-8d9e2bf8b167")
+		(uuid "b403c8c7-6bbc-40fb-b49b-d4873e9a0dc6")
 	)
 	(label "SSTX_P"
 		(at 132.08 60.96 180)
@@ -3543,16 +3473,6 @@
 			(justify left bottom)
 		)
 		(uuid "e65afecb-8ed3-43a0-a39e-f40798eba265")
-	)
-	(label "SSTX_P"
-		(at 62.23 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f15d09f5-6d3e-40c4-94ad-1ba68dd9b721")
 	)
 	(label "SSTX_N"
 		(at 132.08 58.42 180)
@@ -3598,7 +3518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f00ea8-f969-4455-bd98-ed305217a01d")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0138"
 			(at 149.86 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3658,11 +3578,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "#PWR0119")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "#PWR0116")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -3680,7 +3600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15ca2385-5e06-4acb-9f57-100ed59e4821")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0137"
 			(at 82.55 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3740,11 +3660,101 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "#PWR0118")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "#PWR0115")
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Filter:Choke_Schaffner_RN102-0.3-02-22M")
+		(at 111.76 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32a7d423-d243-41d3-b240-c26853954a7c")
+		(property "Reference" "FL6"
+			(at 111.379 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 111.379 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Common mode choke, 300mA, 300VAC, 22mH, 1.3 ohm, RN-102"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d8ad82b2-f0aa-497f-8ebd-7f24aff54f86")
+		)
+		(pin "1"
+			(uuid "8e3c234e-87ee-4756-b974-20cbc8ed21d2")
+		)
+		(pin "4"
+			(uuid "b3fb9d8e-e9be-4927-98d2-fdf28c24d1ba")
+		)
+		(pin "2"
+			(uuid "fa8bd171-4cea-44b0-975e-1041cca354d8")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
+					(reference "FL7")
+					(unit 1)
+				)
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
+					(reference "FL6")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f02d81-bfda-4764-a037-7891f375b302")
-		(property "Reference" "D17"
+		(property "Reference" "D13"
 			(at 57.15 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3827,101 +3837,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "D18")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:Choke_Schaffner_RN102-0.3-02-22M")
-		(at 127 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bb0b988-393a-497f-9ef9-78a4568de513")
-		(property "Reference" "FL12"
-			(at 126.619 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 126.619 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm"
-			(at 127 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/"
-			(at 127 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Common mode choke, 300mA, 300VAC, 22mH, 1.3 ohm, RN-102"
-			(at 127 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9244fa4f-4a86-4fec-848c-5c35dee45228")
-		)
-		(pin "1"
-			(uuid "bce26406-c4ee-4b34-9675-0caa778e2752")
-		)
-		(pin "4"
-			(uuid "f49a2d37-139c-4876-a88d-f2a5822fbfb6")
-		)
-		(pin "2"
-			(uuid "88491236-4ee9-43af-9bdc-4c5c7bc85274")
-		)
-		(instances
-			(project "padalec"
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "FL13")
-					(unit 1)
-				)
-				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "FL12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4047,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862ab291-68d6-4e95-8f93-3d71ebe3bb28")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0135"
 			(at 41.91 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4107,11 +4027,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "#PWR0117")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "#PWR0114")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -4252,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8f897da-8f97-4109-96da-ee149530f7bc")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0136"
 			(at 54.61 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4312,11 +4232,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "#PWR0189")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "#PWR0188")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc912ec2-3c4b-4e7c-9c1d-077d353468b1")
-		(property "Reference" "C99"
+		(property "Reference" "C85"
 			(at 44.45 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4397,11 +4317,11 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/e4f2b64e-3ce1-4766-9402-9e6dd512a81d"
-					(reference "C100")
+					(reference "C86")
 					(unit 1)
 				)
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/aef62ff3-c16c-41e8-9e9b-0a14739a8727/ebc56fe0-d0cf-4d9e-ac56-f2f664453d23"
-					(reference "C99")
+					(reference "C85")
 					(unit 1)
 				)
 			)

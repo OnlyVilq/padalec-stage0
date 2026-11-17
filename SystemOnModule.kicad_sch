@@ -21466,7 +21466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52f7fb8a-ce40-414f-9303-77a11b3fbd9c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 450.85 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -21526,7 +21526,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21544,7 +21544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ba7262-cb4c-492f-9a8b-ef7167d3bdf1")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 311.15 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -21604,7 +21604,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21704,7 +21704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65257991-cae6-479b-9874-2e64aca0db94")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR035"
 			(at 322.58 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -21764,7 +21764,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR0167")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21868,7 +21868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c8e0d58-f48b-4922-bda9-c8e77c98467f")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR040"
 			(at 778.51 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -21928,7 +21928,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR0166")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23300,7 +23300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c64a42-a764-4a58-901a-03543fc1153d")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 433.07 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23362,7 +23362,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -23380,7 +23380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ceb05f7-1852-4da0-9417-d4d2423483ab")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 450.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -23440,7 +23440,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23458,7 +23458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac45756f-5115-43d1-8746-d3eb5d89829f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 312.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -23518,7 +23518,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23536,7 +23536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8e4dc2-ee77-475c-9429-bb89793ba33c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR041"
 			(at 796.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -23596,7 +23596,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR033")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -23614,7 +23614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c110003c-a546-45b7-bcdd-6e5bb15d3644")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR039"
 			(at 778.51 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -23674,7 +23674,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR0165")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -24966,7 +24966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c37bbb-ba40-48b2-9ef9-7150f2d7cc21")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 427.99 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -25026,7 +25026,7 @@
 		(instances
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/f6bb69b3-ba44-4195-af12-afa62b10fdb4"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
