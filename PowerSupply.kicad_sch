@@ -9622,7 +9622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ7791500PWR:SOP65P640X120-24N"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x6.5mm_P0.5mm"
 			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -12602,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 33.02 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17886,7 +17886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_RQM0029A_VQFN-29_4x4mm_P0.4mm"
 			(at 99.06 132.334 0)
 			(hide yes)
 			(show_name no)
@@ -18277,7 +18277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "SPM6530T-1R0M120"
 			(at 114.3 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18288,7 +18288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SPM6530:SPM6530"
 			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
