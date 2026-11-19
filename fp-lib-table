@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "cm3588") (type "KiCad") (uri "${KIPRJMOD}/rk3588/cm3588.pretty") (options "") (descr ""))
 	(lib (name "SPM6530") (type "KiCad") (uri "${KIPRJMOD}/SPM6530.pretty") (options "") (descr ""))
+	(lib (name "TSSOP_58x79") (type "KiCad") (uri "${KIPRJMOD}/TSSOP_58x79.pretty") (options "") (descr ""))
+	(lib (name "tssop_24_tesas") (type "KiCad") (uri "${KIPRJMOD}/Libs/tssop_24_tesas.pretty") (options "") (descr ""))
 )

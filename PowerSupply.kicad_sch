@@ -5586,7 +5586,7 @@
 	)
 	(text "Czy tutaj nie ma błędu??"
 		(exclude_from_sim no)
-		(at 153.67 40.132 0)
+		(at 152.654 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5691,6 +5691,12 @@
 		(uuid "0a069225-9ebf-47b4-b7b9-638e7c90fa4d")
 	)
 	(junction
+		(at 154.94 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b01e8a0-3312-408b-bfcc-643ccbe5e055")
+	)
+	(junction
 		(at 265.43 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5739,6 +5745,12 @@
 		(uuid "2d51a617-e9ce-4254-b3da-49e5d49e3abd")
 	)
 	(junction
+		(at 154.94 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "334d1883-aaba-4ac5-ba7d-b188c988829b")
+	)
+	(junction
 		(at 388.62 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5779,6 +5791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f198cfc-a69d-4c0e-8f17-640fc36c444d")
+	)
+	(junction
+		(at 146.05 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fb27379-be0b-4873-8d30-2f0350ec38d9")
 	)
 	(junction
 		(at 137.16 212.09)
@@ -5857,6 +5875,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89ae425e-a037-4dd5-94de-22d63a4285e5")
+	)
+	(junction
+		(at 165.1 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b9830af-a59d-4fa0-9996-93770d5e2283")
 	)
 	(junction
 		(at 73.66 97.79)
@@ -6383,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "1901f265-3e1f-4913-8740-c6a1f301a516")
+	)
+	(wire
+		(pts
+			(xy 154.94 46.99) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19326130-560d-4c05-aee0-374a30d6206c")
 	)
 	(wire
 		(pts
@@ -7106,6 +7140,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 41.91) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634da6ad-b627-4f5d-a2a5-8d583bd078af")
+	)
+	(wire
+		(pts
 			(xy 83.82 54.61) (xy 88.9 54.61)
 		)
 		(stroke
@@ -7636,7 +7680,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 46.99) (xy 157.48 46.99)
+			(xy 146.05 46.99) (xy 154.94 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8046,6 +8090,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 41.91) (xy 154.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e6637d-7ef8-40ff-b43a-4f3845d76643")
+	)
+	(wire
+		(pts
 			(xy 22.86 166.37) (xy 22.86 168.91)
 		)
 		(stroke
@@ -8396,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 157.48 49.53)
+			(xy 165.1 46.99) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9622,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x6.5mm_P0.5mm"
+		(property "Footprint" "tssop_24_tesas:BQ77915"
 			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10679,6 +10733,89 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_Small_2")
+		(lib_id "Device:C_Small")
+		(at 165.1 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc2b1f4-bd2d-42dc-af09-22589b834f36")
+		(property "Reference" "C133"
+			(at 167.64 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33u"
+			(at 167.64 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5306f407-66d3-4abd-a7a7-7304d8b0ec07")
+		)
+		(pin "2"
+			(uuid "3a5918ba-7b12-4128-8937-ae2f7a2eba7a")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -11943,7 +12080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "5.24"
 			(at 71.12 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13069,7 +13206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 49.53 0)
+		(at 165.1 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13080,7 +13217,7 @@
 		(fields_autoplaced yes)
 		(uuid "70cbb82c-b6c4-468d-bd18-e6407d1e1f4c")
 		(property "Reference" "#PWR016"
-			(at 157.48 55.88 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13091,7 +13228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 54.61 0)
+			(at 165.1 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13101,7 +13238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 49.53 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 49.53 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13123,7 +13260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 49.53 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15522,7 +15659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x01_P1.00mm_Vertical_SMD"
 			(at 255.27 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16843,7 +16980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x01_P1.00mm_Vertical_SMD"
 			(at 73.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17365,6 +17502,89 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_Small_2")
+		(lib_id "Device:C_Small")
+		(at 154.94 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1eabd1-6ce7-4a1d-aa00-6318ce8d2437")
+		(property "Reference" "C132"
+			(at 157.48 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33u"
+			(at 157.48 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d302b7fe-e265-4c77-9fd5-03eff7a54329")
+		)
+		(pin "2"
+			(uuid "f1688831-e8b1-4f7a-9a16-a02c04e54736")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "C132")
 					(unit 1)
 				)
 			)
