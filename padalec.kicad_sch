@@ -48,6 +48,16 @@
 		)
 		(uuid "39683e91-f0c6-423a-b8ff-6e8a723b7f46")
 	)
+	(text "Footprint do przetwornic znaleźć/zrobić"
+		(exclude_from_sim no)
+		(at 236.982 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44e38591-dd8a-4a5b-a964-8ecf3f4c48a0")
+	)
 	(text "rachunek napięcia 1v8:\npull up na SD\ndzielnik w Audio Jacku\nzegar PCIe (30mA max)\n"
 		(exclude_from_sim no)
 		(at 138.43 27.686 0)
