@@ -6372,6 +6372,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 241.3) (xy 25.4 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1327dc08-eca0-497f-872a-4882248079a0")
+	)
+	(wire
+		(pts
 			(xy 323.85 139.7) (xy 326.39 139.7)
 		)
 		(stroke
@@ -6952,6 +6962,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 241.3) (xy 31.75 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4625121e-a302-45b2-9b2f-80328a2335f3")
+	)
+	(wire
+		(pts
 			(xy 128.27 41.91) (xy 137.16 41.91)
 		)
 		(stroke
@@ -7009,6 +7029,16 @@
 			(type default)
 		)
 		(uuid "4caa5a32-d88b-4dab-95b5-f27c32db277a")
+	)
+	(wire
+		(pts
+			(xy 22.86 260.35) (xy 25.4 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0e3ef2-ce57-4f88-9f4e-537e21e4065b")
 	)
 	(wire
 		(pts
@@ -7882,6 +7912,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 260.35) (xy 31.75 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91fc834-16a5-4ff9-ad9e-0d3883ff8235")
+	)
+	(wire
+		(pts
 			(xy 157.48 241.3) (xy 160.02 241.3)
 		)
 		(stroke
@@ -8472,16 +8512,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 241.3) (xy 31.75 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d7d273-f4aa-4196-b15c-ed5eca4d8d8b")
-	)
-	(wire
-		(pts
 			(xy 340.36 73.66) (xy 340.36 76.2)
 		)
 		(stroke
@@ -8679,16 +8709,6 @@
 			(type default)
 		)
 		(uuid "ebf20c57-76fd-433e-b627-ec8079d5f166")
-	)
-	(wire
-		(pts
-			(xy 22.86 260.35) (xy 31.75 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0de61c-8e74-4092-a7e0-14bbe1b3ebf2")
 	)
 	(wire
 		(pts
@@ -8900,16 +8920,6 @@
 		)
 		(uuid "01c72b18-e8f1-4881-b564-c8106eccca03")
 	)
-	(label "PCIEP.3V3_D"
-		(at 157.48 260.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04bd91b4-e973-454c-9d90-ee7fadb77d6b")
-	)
 	(label "VC3"
 		(at 312.42 96.52 180)
 		(effects
@@ -8960,6 +8970,16 @@
 		)
 		(uuid "0d29602b-d7d6-4042-a5a7-3d08352b20c6")
 	)
+	(label "PCIEP.3V3_B"
+		(at 90.17 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11fdf661-48fa-4eda-bb7a-0e21341f9092")
+	)
 	(label "~{INT}"
 		(at 43.18 147.32 180)
 		(effects
@@ -8969,16 +8989,6 @@
 			(justify right bottom)
 		)
 		(uuid "151da3c4-6a60-4889-b183-1add679c3a61")
-	)
-	(label "PCIEP.3V3_A"
-		(at 95.25 241.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "18af5163-d78b-4ee2-828f-4e45cbcb6e48")
 	)
 	(label "PCIEP.pGood_D"
 		(at 157.48 266.7 180)
@@ -9220,6 +9230,16 @@
 		)
 		(uuid "818bb682-7ba4-44f3-bc50-ec400e538a9c")
 	)
+	(label "PCIEP.3V3_A"
+		(at 90.17 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "832b6fdf-0709-4a32-867b-6ed67a98a31e")
+	)
 	(label "Charging_LED"
 		(at 109.22 72.39 0)
 		(effects
@@ -9240,6 +9260,16 @@
 		)
 		(uuid "84cb1468-5d71-4f7e-9965-3380187794c0")
 	)
+	(label "PCIEP.3V3_D"
+		(at 152.4 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85e4e1c3-ea09-46a5-b5dc-b8a2de81e629")
+	)
 	(label "VBUS"
 		(at 29.21 238.76 180)
 		(effects
@@ -9249,16 +9279,6 @@
 			(justify right bottom)
 		)
 		(uuid "8acb7e50-9980-424c-b08a-e8919507429f")
-	)
-	(label "PCIEP.3V3_B"
-		(at 95.25 260.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96b1b305-6506-4c8a-a20a-43166f051788")
 	)
 	(label "Bat"
 		(at 323.85 73.66 180)
@@ -9520,6 +9540,16 @@
 		)
 		(uuid "eaf52483-d133-4b30-81b5-9d4967ce96f3")
 	)
+	(label "PCIEP.3V3_C"
+		(at 152.4 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb7d21f1-0a22-489b-9d15-0bd123a728b0")
+	)
 	(label "DSG"
 		(at 231.14 100.33 0)
 		(effects
@@ -9609,16 +9639,6 @@
 			(justify left bottom)
 		)
 		(uuid "f927637c-0cfd-4608-8fa9-eac62dedbfcc")
-	)
-	(label "PCIEP.3V3_C"
-		(at 157.48 241.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa7ee913-19c9-4e17-8047-44792ad0b58e")
 	)
 	(hierarchical_label "3v3_PCIE_A"
 		(shape output)
@@ -10297,6 +10317,86 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 154.94 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10d9b657-bd57-461e-ae3b-cea8929c6f51")
+		(property "Reference" "R165"
+			(at 154.94 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.94 241.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 154.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 154.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f64e8de-93f6-4085-b0e7-b5353306fc9e")
+		)
+		(pin "2"
+			(uuid "a0394444-bf28-4400-987f-5cc2239aee5c")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -12347,6 +12447,86 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 92.71 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45c6c045-9868-43e5-bf9b-51057e776b80")
+		(property "Reference" "R164"
+			(at 92.71 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.71 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3041fe4-8d0b-496a-b24c-5202eea3be9a")
+		)
+		(pin "2"
+			(uuid "fa8b6922-c275-447a-a3aa-117da474f61c")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 22.86 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -13241,6 +13421,86 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 154.94 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f3378a9-561a-4b7a-9d9e-8355e5c70fba")
+		(property "Reference" "R166"
+			(at 154.94 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.94 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 154.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 154.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a172279-4bcc-485f-8cde-b9ecc37984d3")
+		)
+		(pin "2"
+			(uuid "7bf95da3-8187-406d-8a5b-318f45037d61")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -16586,6 +16846,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 27.94 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c76041c6-26be-4d43-a365-79c4b4bec19f")
+		(property "Reference" "R168"
+			(at 27.94 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 27.94 260.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 27.94 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53f03f58-774c-489b-8f37-0c80c7989053")
+		)
+		(pin "2"
+			(uuid "1680320b-d929-4019-9031-e1f3975c6bab")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 180.34 260.35 180)
 		(unit 1)
@@ -17144,6 +17484,86 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 27.94 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cff0cc77-9930-4f5f-95a7-8e03f99ee13c")
+		(property "Reference" "R167"
+			(at 27.94 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 27.94 241.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 27.94 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2c7a593-589b-4fbd-a650-3291b4982c2e")
+		)
+		(pin "2"
+			(uuid "b2f19dc8-1900-4456-9a0a-1a3440ff4764")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -18669,6 +19089,86 @@
 			(project "padalec"
 				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6ab8094-cd41-4fb4-aa14-92f9109055dc")
+		(property "Reference" "R163"
+			(at 92.71 236.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.71 241.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5592164-e82b-4b51-8451-caf322079f52")
+		)
+		(pin "2"
+			(uuid "8807343a-7b48-4517-bdbc-edb7fb7cb22c")
+		)
+		(instances
+			(project "padalec"
+				(path "/42a0f1b1-aae8-47cf-a169-752d0b6d3e8d/fddb304d-0a52-4e5e-9772-501df86db575"
+					(reference "R163")
 					(unit 1)
 				)
 			)
